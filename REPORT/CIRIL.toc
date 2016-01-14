@@ -1,0 +1,92 @@
+\select@language {english}
+\contentsline {section}{\numberline {0.1}Introduction}{4}{section.0.1}
+\contentsline {part}{I\hspace {1em}Fast Scattering}{5}{part.1}
+\contentsline {chapter}{\numberline {1}Scattering Network}{6}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{6}{section.1.1}
+\contentsline {section}{\numberline {1.2}Filter Bank}{7}{section.1.2}
+\contentsline {paragraph}{Filters}{8}{section*.2}
+\contentsline {paragraph}{Filter Periodization}{8}{section*.3}
+\contentsline {section}{\numberline {1.3}Scattering Layer}{8}{section.1.3}
+\contentsline {paragraph}{Decomposition Implementation}{8}{section*.4}
+\contentsline {chapter}{\numberline {2}Choice for Fast Audio File Manipulation}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}File Structure}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Implementation}{13}{section.2.2}
+\contentsline {chapter}{\numberline {3}Fast Fourier Transform implementation}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Definitions}{14}{section.3.1}
+\contentsline {paragraph}{Interpretation of the CFT}{14}{section*.8}
+\contentsline {section}{\numberline {3.2}Fast Fourier Transform}{15}{section.3.2}
+\contentsline {paragraph}{Danielson-Lanczos Lemma}{15}{section*.9}
+\contentsline {paragraph}{Twiddle Factor Properties}{17}{section*.10}
+\contentsline {paragraph}{Butterfly Scheme}{17}{section*.11}
+\contentsline {section}{\numberline {3.3}Inverse Fourier Transform}{17}{section.3.3}
+\contentsline {section}{\numberline {3.4}Algorithm}{17}{section.3.4}
+\contentsline {section}{\numberline {3.5}Graph}{20}{section.3.5}
+\contentsline {chapter}{\numberline {4}Spectrogram}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Algorithm}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Implementation}{22}{section.4.2}
+\contentsline {section}{\numberline {4.3}Graph}{22}{section.4.3}
+\contentsline {section}{\numberline {4.4}Examples}{22}{section.4.4}
+\contentsline {chapter}{\numberline {5}Scattering Network Fast Implementation}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}Meta-Parameters}{24}{section.5.1}
+\contentsline {section}{\numberline {5.2}Filter Bank Creation}{24}{section.5.2}
+\contentsline {section}{\numberline {5.3}Layer Implementation}{25}{section.5.3}
+\contentsline {section}{\numberline {5.4}Scattering Network Implementation}{26}{section.5.4}
+\contentsline {section}{\numberline {5.5}Optimizations and Computation Time}{26}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Filter Bank Optimizations}{26}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Computation Time}{27}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Examples}{27}{section.5.6}
+\contentsline {part}{II\hspace {1em}Benchmark and Bioacoustic Classification}{28}{part.2}
+\contentsline {part}{III\hspace {1em}Function parser}{29}{part.3}
+\contentsline {section}{\numberline {5.7}Motivation}{30}{section.5.7}
+\contentsline {section}{\numberline {5.8}Tree Generation}{30}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Rules}{30}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Structure}{30}{subsection.5.8.2}
+\contentsline {section}{\numberline {5.9}Tree Evaluation}{31}{section.5.9}
+\contentsline {section}{\numberline {5.10}Implemented functions}{31}{section.5.10}
+\contentsline {section}{\numberline {5.11}Example}{32}{section.5.11}
+\contentsline {part}{IV\hspace {1em}Solver}{33}{part.4}
+\contentsline {section}{\numberline {5.12}Direct Method}{34}{section.5.12}
+\contentsline {subsection}{\numberline {5.12.1}LU decomposition}{34}{subsection.5.12.1}
+\contentsline {paragraph}{Algorithms :}{34}{section*.12}
+\contentsline {subsection}{\numberline {5.12.2}Matrix Invert Computation}{35}{subsection.5.12.2}
+\contentsline {subsection}{\numberline {5.12.3}Computing the Matrix Determinant}{36}{subsection.5.12.3}
+\contentsline {section}{\numberline {5.13}Iterative Methods}{36}{section.5.13}
+\contentsline {subsection}{\numberline {5.13.1}Jacobi}{36}{subsection.5.13.1}
+\contentsline {subsection}{\numberline {5.13.2}Gauss-Seidel}{38}{subsection.5.13.2}
+\contentsline {subsection}{\numberline {5.13.3}Successive Over Relaxation}{40}{subsection.5.13.3}
+\contentsline {section}{\numberline {5.14}Gradient Based Methods}{40}{section.5.14}
+\contentsline {subsection}{\numberline {5.14.1}Gradient Descent}{41}{subsection.5.14.1}
+\contentsline {subsection}{\numberline {5.14.2}Conjugate Gradient Descent}{43}{subsection.5.14.2}
+\contentsline {subsection}{\numberline {5.14.3}Preconditioning}{44}{subsection.5.14.3}
+\contentsline {subsection}{\numberline {5.14.4}Example}{45}{subsection.5.14.4}
+\contentsline {part}{V\hspace {1em}Validation on a Finite Element Approximation}{47}{part.5}
+\contentsline {chapter}{\numberline {6}Initial Problem}{48}{chapter.6}
+\contentsline {chapter}{\numberline {7}Variational Problem}{50}{chapter.7}
+\contentsline {section}{\numberline {7.1}Weak Form Derivation}{50}{section.7.1}
+\contentsline {section}{\numberline {7.2}Problem Equivalence}{51}{section.7.2}
+\contentsline {section}{\numberline {7.3}Existence and Uniqueness of the Solution}{51}{section.7.3}
+\contentsline {chapter}{\numberline {8}Discretized Problem}{53}{chapter.8}
+\contentsline {section}{\numberline {8.1}Existence and Uniqueness of the Solution}{53}{section.8.1}
+\contentsline {section}{\numberline {8.2}Mesh Description}{53}{section.8.2}
+\contentsline {section}{\numberline {8.3}System $Au=L$}{55}{section.8.3}
+\contentsline {chapter}{\numberline {9}Discretized Problem Computation}{56}{chapter.9}
+\contentsline {section}{\numberline {9.1}Quadrature}{56}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Triangle Area}{56}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Hat Functions}{56}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}Bilinear Form Computation}{57}{section.9.2}
+\contentsline {section}{\numberline {9.3}Linear Form Computation}{58}{section.9.3}
+\contentsline {section}{\numberline {9.4}Implementation of Piecewise-Defined Functions}{59}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}$\alpha $ function}{59}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}$g$ function}{60}{subsection.9.4.2}
+\contentsline {section}{\numberline {9.5}Method to Fill the System $Au=L$}{60}{section.9.5}
+\contentsline {subsection}{\numberline {9.5.1}Optimized Approach}{60}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.5.2}Computation time,Convergence, Optimization}{62}{subsection.9.5.2}
+\contentsline {chapter}{\numberline {10}Examples and GUI}{64}{chapter.10}
+\contentsline {section}{\numberline {10.1}GUI}{64}{section.10.1}
+\contentsline {section}{\numberline {10.2}Examples}{68}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Example 1}{68}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Example 2}{69}{subsection.10.2.2}
+\contentsline {chapter}{\numberline {11}Error Analysis}{70}{chapter.11}
+\contentsline {section}{\numberline {11.1}Considered Problem}{70}{section.11.1}
+\contentsline {section}{\numberline {11.2}Analysis}{71}{section.11.2}
+\contentsline {section}{\numberline {11.3}Conclusion}{74}{section.11.3}

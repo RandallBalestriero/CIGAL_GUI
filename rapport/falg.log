@@ -1,0 +1,4425 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.9.8)  21 DEC 2015 06:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**falg.tex
+(./falg.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 4 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count88
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count89
+\lst@currlwidth=\dimen103
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen106
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
+\c@tracingmulticols=\count96
+\mult@box=\box28
+\multicol@leftmargin=\dimen107
+\c@unbalance=\count97
+\c@collectmore=\count98
+\doublecol@number=\count99
+\multicoltolerance=\count100
+\multicolpretolerance=\count101
+\full@width=\dimen108
+\page@free=\dimen109
+\premulticols=\dimen110
+\postmulticols=\dimen111
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen112
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count102
+\c@finalcolumnbadness=\count103
+\last@try=\dimen113
+\multicolovershoot=\dimen114
+\multicolundershoot=\dimen115
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen116
+\Hy@linkcounter=\count105
+\Hy@pagecounter=\count106
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count107
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count108
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen117
+\Fld@menulength=\count109
+\Field@Width=\dimen118
+\Fld@charsize=\dimen119
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count110
+\c@Item=\count111
+\c@Hfootnote=\count112
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count113
+\c@bookmark@seq@number=\count114
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip45
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count115
+\calc@Bcount=\count116
+\calc@Adimen=\dimen120
+\calc@Bdimen=\dimen121
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count117
+\calc@Cskip=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen122
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen123
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count118
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count119
+\leftroot@=\count120
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count121
+\DOTSCASE@=\count122
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen124
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count123
+\c@MaxMatrixCols=\count124
+\dotsspace@=\muskip11
+\c@parentequation=\count125
+\dspbrk@lvl=\count126
+\tag@help=\toks17
+\row@=\count127
+\column@=\count128
+\maxfields@=\count129
+\andhelp@=\toks18
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count130
+\l_MT_multwidth_dim=\dimen131
+\origjot=\skip52
+\l_MT_shortvdotswithinadjustabove_dim=\dimen132
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen133
+\l_MT_above_intertext_sep=\dimen134
+\l_MT_below_intertext_sep=\dimen135
+\l_MT_above_shortintertext_sep=\dimen136
+\l_MT_below_shortintertext_sep=\dimen137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2014/08/04 v1.11 Data Visualization (1.11-3-g4c99d7a)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen138
+\pgfutil@tempdimb=\dimen139
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count131
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen142
+\pgf@y=\dimen143
+\pgf@xa=\dimen144
+\pgf@ya=\dimen145
+\pgf@xb=\dimen146
+\pgf@yb=\dimen147
+\pgf@xc=\dimen148
+\pgf@yc=\dimen149
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count132
+\c@pgf@countb=\count133
+\c@pgf@countc=\count134
+\c@pgf@countd=\count135
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count136
+\pgfsyssoftpath@bigbuffer@items=\count137
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen150
+\pgfmath@count=\count138
+\pgfmath@box=\box57
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count139
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen151
+\pgf@picmaxx=\dimen152
+\pgf@picminy=\dimen153
+\pgf@picmaxy=\dimen154
+\pgf@pathminx=\dimen155
+\pgf@pathmaxx=\dimen156
+\pgf@pathminy=\dimen157
+\pgf@pathmaxy=\dimen158
+\pgf@xx=\dimen159
+\pgf@xy=\dimen160
+\pgf@yx=\dimen161
+\pgf@yy=\dimen162
+\pgf@zx=\dimen163
+\pgf@zy=\dimen164
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen165
+\pgf@path@lasty=\dimen166
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen167
+\pgf@shorten@start@additional=\dimen168
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count140
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen170
+\pgf@pt@y=\dimen171
+\pgf@pt@temp=\dimen172
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen174
+\pgf@sys@shading@range@num=\count141
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box61
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box62
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen175
+\pgf@nodesepend=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen177
+\pgffor@skip=\dimen178
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count142
+\pgfplotmarksize=\dimen179
+)
+\tikz@lastx=\dimen180
+\tikz@lasty=\dimen181
+\tikz@lastxsaved=\dimen182
+\tikz@lastysaved=\dimen183
+\tikzleveldistance=\dimen184
+\tikzsiblingdistance=\dimen185
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count143
+\tikznumberofchildren=\count144
+\tikznumberofcurrentchild=\count145
+\tikz@fig@count=\count146
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count147
+\pgfmatrixcurrentcolumn=\count148
+\pgf@matrix@numberofcolumns=\count149
+)
+\tikz@expandcount=\count150
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks33
+\t@pgfplots@tokb=\toks34
+\t@pgfplots@tokc=\toks35
+\pgfplots@tmpa=\dimen186
+\c@pgfplots@coordindex=\count151
+\c@pgfplots@scanlineindex=\count152
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_trig_format.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count153
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count154
+\t@pgfplotstable@a=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count155
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen187
+\pgfdecoratedremainingdistance=\dimen188
+\pgfdecoratedinputsegmentcompleteddistance=\dimen189
+\pgfdecoratedinputsegmentremainingdistance=\dimen190
+\pgf@decorate@distancetomove=\dimen191
+\pgf@decorate@repeatstate=\count156
+\pgfdecorationsegmentamplitude=\dimen192
+\pgfdecorationsegmentlength=\dimen193
+)
+\tikz@lib@dec@box=\box67
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count157
+\pgfplots@xmin@reg=\dimen194
+\pgfplots@xmax@reg=\dimen195
+\pgfplots@ymin@reg=\dimen196
+\pgfplots@ymax@reg=\dimen197
+\pgfplots@zmin@reg=\dimen198
+\pgfplots@zmax@reg=\dimen199
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2013/07/20 v3.0.0 (rcs-revision 1.13)
+))) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count158
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count159
+\U@D=\dimen200
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count160
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip55
+\skiplinenumber=\skip56
+\skiprule=\skip57
+\skiphlne=\skip58
+\skiptext=\skip59
+\skiplength=\skip60
+\algomargin=\skip61
+\skipalgocfslide=\skip62
+\algowidth=\dimen201
+\inoutsize=\dimen202
+\inoutindent=\dimen203
+\interspacetitleruled=\dimen204
+\interspacealgoruled=\dimen205
+\interspacetitleboxruled=\dimen206
+\algocf@inoutbox=\box68
+\algocf@inputbox=\box69
+\AlCapSkip=\skip63
+\AlCapHSkip=\skip64
+\algoskipindent=\skip65
+\algocf@nlbox=\box70
+\algocf@hangingbox=\box71
+\algocf@untilbox=\box72
+\algocf@skipuntil=\skip66
+\algocf@capbox=\box73
+\algoheightruledefault=\skip67
+\algoheightrule=\skip68
+\algotitleheightruledefault=\skip69
+\algotitleheightrule=\skip70
+\c@algocfline=\count161
+\c@algocfproc=\count162
+\c@algocf=\count163
+\algocf@algoframe=\box74
+\algocf@algobox=\box75
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count164
+\float@exts=\toks37
+\float@box=\box76
+\@float@everytoks=\toks38
+\@floatcapt=\box77
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlepic/titlepic.sty
+Package: titlepic 2009/08/03 1.1 Package to display a picture on the title page
+
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/05/25 v2.7 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count165
+File: xkeyval.tex 2014/05/25 v2.7 key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
+)
+\c@@todonotes@numberoftodonotes=\count166
+)
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip71
+\@affilsep=\skip72
+\c@Maxaffil=\count167
+\c@authors=\count168
+\c@affil=\count169
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgftree.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.tex
+\pgf@subpicminx=\dimen207
+\pgf@subpicminy=\dimen208
+\pgf@subpicmaxx=\dimen209
+\pgf@subpicmaxy=\dimen210
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgftree.tex
+\levelsep=\dimen211
+\subtreesep=\dimen212
+\smuggle@levelsep=\dimen213
+\smuggle@subtreesep=\dimen214
+\this@levelsep=\dimen215
+\this@subtreesep=\dimen216
+\pgftree@childx=\dimen217
+\pgftree@savechildx=\dimen218
+\pgftree@childy=\dimen219
+\pgftree@savechildy=\dimen220
+\pgftree@childi=\count170
+\pgftree@savechildi=\count171
+\pgftree@level=\count172
+\pgftree@depth=\dimen221
+\pgf@subpic@hbox@children=\box78
+\pgf@subpic@minx@children=\dimen222
+\pgf@subpic@miny@children=\dimen223
+\pgf@subpic@maxx@children=\dimen224
+\pgf@subpic@maxy@children=\dimen225
+\pgftree@lastchildx=\dimen226
+\pgftree@lastchildy=\dimen227
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.tex
+\@result=\toks41
+\child@list=\toks42
+\root@node=\toks43
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.0 (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
+\arrowsize=\dimen228
+)) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+) (./falg.aux
+
+LaTeX Warning: Label `ll' multiply defined.
+
+
+LaTeX Warning: Label `figure4' multiply defined.
+
+
+LaTeX Warning: Label `figure4' multiply defined.
+
+
+LaTeX Warning: Label `figure4' multiply defined.
+
+
+LaTeX Warning: Label `figure4' multiply defined.
+
+
+LaTeX Warning: Label `figure4' multiply defined.
+
+
+LaTeX Warning: Label `figure4' multiply defined.
+
+)
+Runaway argument?
+{\contentsline {figure}{\numberline {19.15}{\ignorespaces Each subplo\ETC.
+! File ended while scanning use of \@writefile.
+<inserted text> 
+                \par 
+l.75 \begin{document}
+                     
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+\openout1 = `falg.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+\c@lstlisting=\count173
+\AtBeginShipoutBox=\box79
+Package hyperref Info: Link coloring OFF on input line 75.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count174
+)
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
+
+(./falg.out)
+Runaway argument?
+{subsection.19.1 
+! File ended while scanning use of \@@BOOKMARK.
+<inserted text> 
+                \par 
+l.75 \begin{document}
+                     
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(./falg.out)
+Runaway argument?
+{subsection.19.1 
+! File ended while scanning use of \@@BOOKMARK.
+<inserted text> 
+                \par 
+l.75 \begin{document}
+                     
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+\@outlinefile=\write4
+\openout4 = `falg.out'.
+
+ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count175
+\scratchdimen=\dimen229
+\scratchbox=\box80
+\nofMPsegments=\count176
+\nofMParguments=\count177
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count178
+\MPscratchDim=\dimen230
+\MPnumerator=\count179
+\makeMPintoPDFobject=\count180
+\everyMPtoPDFconversion=\toks45
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.11} into 
+your preamble.
+ on input line 75.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<url.png, id=502, 572.1375pt x 279.0425pt>
+File: url.png Graphic file (type png)
+ <use url.png>
+Package pdftex.def Info: url.png used on input line 77.
+(pdftex.def)             Requested size: 297.5132pt x 145.10292pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./url.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.106 \tableofcontents
+                       [1] (./falg.toc)
+\tf@toc=\write5
+\openout5 = `falg.toc'.
+
+ [2
+
+] [3
+
+]
+Chapter 1.
+[4
+
+] [5] [6]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--180
+
+ []
+
+[7
+
+] [8]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 215.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <5> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 215.
+ [9]
+Chapter 3.
+[10
+
+] <vector_size_append_alloc.png, id=576, 1682.4456pt x 922.8879pt>
+File: vector_size_append_alloc.png Graphic file (type png)
+
+<use vector_size_append_alloc.png>
+Package pdftex.def Info: vector_size_append_alloc.png used on input line 245.
+(pdftex.def)             Requested size: 353.324pt x 193.81218pt.
+
+Overfull \hbox (8.324pt too wide) in paragraph at lines 245--245
+ [][] 
+ []
+
+<vector_size_pop_back_alloc.png, id=577, 1682.4456pt x 922.8879pt>
+File: vector_size_pop_back_alloc.png Graphic file (type png)
+
+<use vector_size_pop_back_alloc.png>
+Package pdftex.def Info: vector_size_pop_back_alloc.png used on input line 250.
+
+(pdftex.def)             Requested size: 353.324pt x 193.81218pt.
+
+Overfull \hbox (8.324pt too wide) in paragraph at lines 250--250
+ [][] 
+ []
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.253 W
+       e also have utility methods for arithmetic : <./vector_size_append_alloc
+.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 273.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.281     cout<
+               <((2/(-9*L*9.5))+5)/2<<endl; <./vector_size_pop_back_alloc.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--334
+
+ []
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{algocf.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.335 N
+       ote that both algorithm are $O(N)$.]
+<prod_time.png, id=624, 1682.4456pt x 922.8879pt>
+File: prod_time.png Graphic file (type png)
+ <use prod_time.png>
+Package pdftex.def Info: prod_time.png used on input line 340.
+(pdftex.def)             Requested size: 336.48315pt x 184.57431pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{algocf.2}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.353 \item $
+             \_C$ : column indices, column indices for the values of the $i^...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.353 \item $
+             \_C$ : column indices, column indices for the values of the $i^...
+ <./prod_time.png>] <matrix_vector_time.png, id=634, 1682.4456pt x 922.8879pt>
+File: matrix_vector_time.png Graphic file (type png)
+
+<use matrix_vector_time.png>
+Package pdftex.def Info: matrix_vector_time.png used on input line 395.
+(pdftex.def)             Requested size: 336.48315pt x 184.57431pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{algocf.3}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.398 
+      ] [16pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.426 \chapter
+              {Solver}pdfTeX warning (ext4): destination with the same identifi
+er (name{algocf.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.426 \chapter
+              {Solver} <./matrix_vector_time.png>]
+Chapter 4.
+[17
+
+] [18pdfTeX warning (ext4): destination with the same identifier (name{algocf.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.516 L
+       et's look at the following example, showing how to solve a linear sys...
+pdfTeX warning (ext4): destination with the same identifier (name{algocf.6}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.516 L
+       et's look at the following example, showing how to solve a linear sys...
+pdfTeX warning (ext4): destination with the same identifier (name{algocf.7}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.516 L
+       et's look at the following example, showing how to solve a linear sys...
+]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 525.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{algocf.8}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.570 \subsection
+                 {Jacobi}]
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 597--609
+ []$[]$ 
+ []
+
+<jacobi_example.png, id=706, 1682.4456pt x 922.8879pt>
+File: jacobi_example.png Graphic file (type png)
+
+<use jacobi_example.png>
+Package pdftex.def Info: jacobi_example.png used on input line 615.
+(pdftex.def)             Requested size: 336.48315pt x 184.57431pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{algocf.9}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.618 
+      ] <jacobi_error.png, id=713, 1682.4456pt x 922.8879pt>
+File: jacobi_error.png Graphic file (type png)
+
+<use jacobi_error.png>
+Package pdftex.def Info: jacobi_error.png used on input line 622.
+(pdftex.def)             Requested size: 336.48315pt x 184.57431pt.
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.648 \]
+        pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.4.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.648 \]
+         <./jacobi_example.png> <./jacobi_error.png>]
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 652--664
+ []$[]$ 
+ []
+
+<gauss_seidel_iteration.png, id=722, 1682.4456pt x 922.8879pt>
+File: gauss_seidel_iteration.png Graphic file (type png)
+
+<use gauss_seidel_iteration.png>
+Package pdftex.def Info: gauss_seidel_iteration.png used on input line 683.
+(pdftex.def)             Requested size: 336.48315pt x 184.57431pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{algocf.10
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.686 A
+       nd now the convergence rate :pdfTeX warning (ext4): destination with the
+ same identifier (name{algocf.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.686 A
+       nd now the convergence rate :]
+<gauss_seidel_rate.png, id=731, 1682.4456pt x 922.8879pt>
+File: gauss_seidel_rate.png Graphic file (type png)
+
+<use gauss_seidel_rate.png>
+Package pdftex.def Info: gauss_seidel_rate.png used on input line 690.
+(pdftex.def)             Requested size: 336.48315pt x 184.57431pt.
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 699.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.714 \]
+        pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.4.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.714 \]
+         <./gauss_seidel_iteration.png> <./gauss_seidel_rate.png>]
+<courbes.png, id=753, 1682.4456pt x 922.8879pt>
+File: courbes.png Graphic file (type png)
+ <use courbes.png>
+Package pdftex.def Info: courbes.png used on input line 756.
+(pdftex.def)             Requested size: 336.48315pt x 184.57431pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{algocf.12
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.759 T
+       he first matrix shows a saddle point, the second one is symmetric pos...
+] [25pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.784 W
+       ith $\nabla f(x_k)=Ax_k-b$ and obviously <./courbes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 784--787
+
+ []
+
+<GD_example.png, id=767, 586.8324pt x 442.2924pt>
+File: GD_example.png Graphic file (type png)
+ <use GD_example.png>
+Package pdftex.def Info: GD_example.png used on input line 810.
+(pdftex.def)             Requested size: 234.72879pt x 176.91382pt.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{algocf.13
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.813 
+      pdfTeX warning (ext4): destination with the same identifier (name{algocf.
+14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.813 
+      ]
+Underfull \hbox (badness 10000) in paragraph at lines 826--828
+
+ []
+
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.860 O
+       nce again by using the recursive formula for the gradient, errors mig...
+pdfTeX warning (ext4): destination with the same identifier (name{algocf.15}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.860 O
+       nce again by using the recursive formula for the gradient, errors mig...
+ <./GD_example.png>] <CGD_example.png, id=793, 586.8324pt x 442.2924pt>
+File: CGD_example.png Graphic file (type png)
+
+<use CGD_example.png>
+Package pdftex.def Info: CGD_example.png used on input line 867.
+(pdftex.def)             Requested size: 234.72879pt x 176.91382pt.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{algocf.16
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.879 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.879 
+       <./CGD_example.png>] <cgd_error.png, id=803, 1682.4456pt x 922.8879pt>
+File: cgd_error.png Graphic file (type png)
+
+<use cgd_error.png>
+Package pdftex.def Info: cgd_error.png used on input line 898.
+(pdftex.def)             Requested size: 336.48315pt x 184.57431pt.
+ <cgd_gd.png, id=804, 1682.4456pt x 922.8879pt>
+File: cgd_gd.png Graphic file (type png)
+
+<use cgd_gd.png>
+Package pdftex.def Info: cgd_gd.png used on input line 904.
+(pdftex.def)             Requested size: 336.48315pt x 184.57431pt.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.907 
+       <./cgd_error.png>] [30pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.4.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.911 \chapter
+              {Mesh} <./cgd_gd.png>]
+Chapter 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 913.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 913.
+
+
+Overfull \hbox (28.01926pt too wide) in paragraph at lines 935--946
+[]
+ []
+
+[31
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 950.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 950.
+
+[32]
+Chapter 6.
+<menu.png, id=827, 248.93pt x 625.33624pt>
+File: menu.png Graphic file (type png)
+ <use menu.png>
+Package pdftex.def Info: menu.png used on input line 962.
+(pdftex.def)             Requested size: 149.35915pt x 375.20464pt.
+ [33
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 967.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 967.
+
+<plotting_1D_nude.png, id=832, 798.985pt x 619.31375pt>
+File: plotting_1D_nude.png Graphic file (type png)
+
+<use plotting_1D_nude.png>
+Package pdftex.def Info: plotting_1D_nude.png used on input line 971.
+(pdftex.def)             Requested size: 359.53993pt x 278.68861pt.
+
+Overfull \hbox (14.53993pt too wide) in paragraph at lines 971--971
+ [][] 
+ []
+
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.974 
+       <./menu.png>]
+<plotting_1D_example.png, id=838, 799.98875pt x 622.325pt>
+File: plotting_1D_example.png Graphic file (type png)
+
+<use plotting_1D_example.png>
+Package pdftex.def Info: plotting_1D_example.png used on input line 978.
+(pdftex.def)             Requested size: 359.99161pt x 280.04366pt.
+
+Overfull \hbox (14.99161pt too wide) in paragraph at lines 978--978
+ [][] 
+ []
+
+[35pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.981 
+       <./plotting_1D_nude.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 982.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 982.
+
+<plotting_2D_nude.png, id=844, 797.98125pt x 624.3325pt>
+File: plotting_2D_nude.png Graphic file (type png)
+
+<use plotting_2D_nude.png>
+Package pdftex.def Info: plotting_2D_nude.png used on input line 986.
+(pdftex.def)             Requested size: 359.08824pt x 280.94702pt.
+
+Overfull \hbox (14.08824pt too wide) in paragraph at lines 986--986
+ [][] 
+ []
+
+[36pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.989 
+       <./plotting_1D_example.png>]
+<plotting_2D_example.png, id=851, 797.98125pt x 624.3325pt>
+File: plotting_2D_example.png Graphic file (type png)
+
+<use plotting_2D_example.png>
+Package pdftex.def Info: plotting_2D_example.png used on input line 993.
+(pdftex.def)             Requested size: 359.08824pt x 280.94702pt.
+
+Overfull \hbox (14.08824pt too wide) in paragraph at lines 993--993
+ [][] 
+ []
+
+[37pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.996 
+       <./plotting_2D_nude.png>] [38pdfTeX warning (ext4): destination with the
+ same identifier (name{figure.6.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1000 \part
+            {Fast Scattering} <./plotting_2D_example.png>] [39
+
+]
+Chapter 7.
+<scattering.png, id=866, 1736.4875pt x 635.37375pt>
+File: scattering.png Graphic file (type png)
+ <use scattering.png>
+Package pdftex.def Info: scattering.png used on input line 1022.
+(pdftex.def)             Requested size: 399.38373pt x 146.13289pt.
+
+Overfull \hbox (54.38373pt too wide) in paragraph at lines 1022--1022
+ [][][] 
+ []
+
+
+Package natbib Warning: Citation `m2' on page 40 undefined on input line 1022.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1024
+
+ []
+
+[40
+
+] [41pdfTeX warning (ext4): destination with the same identifier (name{figure.7
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1044 
+        <./scattering.png>] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1102
+
+ []
+
+[43pdfTeX warning (ext4): destination with the same identifier (name{algocf.17}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1107 \chapter
+               {Choice for Fast Audio File Manipulation}]
+Chapter 8.
+<wavformat.png, id=892, 951.555pt x 819.06pt>
+File: wavformat.png Graphic file (type png)
+ <use wavformat.png>
+Package pdftex.def Info: wavformat.png used on input line 1115.
+(pdftex.def)             Requested size: 294.979pt x 253.90598pt.
+ [44
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1121 \subsection
+                  *{Chunk} <./wavformat.png>] [45] [46]
+Chapter 9.
+[47
+
+] [48]
+Overfull \hbox (6.63605pt too wide) detected at line 1239
+\OML/cmm/m/it/10 X[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + \
+OML/cmm/m/it/10 W[]x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 W[]x[] \OT1/cmr/m/n/1
+0 + \OML/cmm/m/it/10 W[]W[]x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 W[]x[] \OT1/c
+mr/m/n/10 + \OML/cmm/m/it/10 W[]W[]x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 W[]W[
+]x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 W[]W[]W[]x[]
+ []
+
+[49]
+Overfull \hbox (1.3513pt too wide) in paragraph at lines 1271--1274
+\OT1/cmr/m/n/10 And so on us-ing trigono-met-ric prop-er-ties, with func-tions 
+here be-ing $\OML/cmm/m/it/10 N^^Y$\OT1/cmr/m/n/10 -periodic.
+ []
+
+<Butterfly8.jpg, id=943, 451.6875pt x 376.40625pt>
+File: Butterfly8.jpg Graphic file (type jpg)
+ <use Butterfly8.jpg>
+Package pdftex.def Info: Butterfly8.jpg used on input line 1286.
+(pdftex.def)             Requested size: 316.17908pt x 263.48257pt.
+
+
+Package natbib Warning: Citation `learnfft' on page 50 undefined on input line 
+1287.
+
+[50] [51pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.9.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1331    Block 
+                :  1 <./Butterfly8.jpg>]
+<fft_diagram.png, id=992, 597.73312pt x 845.40843pt>
+File: fft_diagram.png Graphic file (type png)
+ <use fft_diagram.png>
+Package pdftex.def Info: fft_diagram.png used on input line 1381.
+(pdftex.def)             Requested size: 185.29535pt x 262.0739pt.
+
+[52] [53pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.9.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1385 \chapter
+               {Spectrogram} <./fft_diagram.png>]
+Chapter 10.
+[54
+
+] <spectro_diagram.png, id=1049, 597.73312pt x 845.40843pt>
+File: spectro_diagram.png Graphic file (type png)
+
+<use spectro_diagram.png>
+Package pdftex.def Info: spectro_diagram.png used on input line 1428.
+(pdftex.def)             Requested size: 185.29535pt x 262.0739pt.
+ [55] <fftslow.png, id=1064, 1517.67pt x 884.30376pt>
+File: fftslow.png Graphic file (type png)
+
+<use fftslow.png>
+Package pdftex.def Info: fftslow.png used on input line 1437.
+(pdftex.def)             Requested size: 318.72011pt x 185.70926pt.
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1440 
+        <./spectro_diagram.png>]
+<fftfast.png, id=1074, 1528.71124pt x 875.27pt>
+File: fftfast.png Graphic file (type png)
+ <use fftfast.png>
+Package pdftex.def Info: fftfast.png used on input line 1443.
+(pdftex.def)             Requested size: 321.03883pt x 183.81212pt.
+
+<fftbird.png, id=1075, 1534.73375pt x 888.31876pt>
+File: fftbird.png Graphic file (type png)
+ <use fftbird.png>
+Package pdftex.def Info: fftbird.png used on input line 1449.
+(pdftex.def)             Requested size: 322.3036pt x 186.55244pt.
+ [57pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1452 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.10.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1452 
+        <./fftslow.png> <./fftfast.png>] [58pdfTeX warning (ext4): destination 
+with the same identifier (name{figure.10.4}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1454 \chapter
+               {Scattering Network Fast Implementation} <./fftbird.png>]
+Chapter 11.
+[59
+
+] <example1.png, id=1100, 994.71625pt x 840.13875pt>
+File: example1.png Graphic file (type png)
+ <use example1.png>
+Package pdftex.def Info: example1.png used on input line 1499.
+(pdftex.def)             Requested size: 208.89658pt x 176.43434pt.
+
+<psis.png, id=1101, 1393.3656pt x 763.1712pt>
+File: psis.png Graphic file (type png)
+ <use psis.png>
+Package pdftex.def Info: psis.png used on input line 1520.
+(pdftex.def)             Requested size: 292.61542pt x 160.27068pt.
+ [60pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1523 H
+        ere is the diagram summary of the layer class. <./example1.png>]
+<filter_diagram.png, id=1133, 597.73312pt x 845.40843pt>
+File: filter_diagram.png Graphic file (type png)
+
+<use filter_diagram.png>
+Package pdftex.def Info: filter_diagram.png used on input line 1526.
+(pdftex.def)             Requested size: 185.29535pt x 262.0739pt.
+ [61pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1533 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.11.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1533 
+        <./psis.png> <./filter_diagram.png>]
+<f_x_1_1_1.png, id=1142, 586.8324pt x 442.2924pt>
+File: f_x_1_1_1.png Graphic file (type png)
+ <use f_x_1_1_1.png>
+Package pdftex.def Info: f_x_1_1_1.png used on input line 1571.
+(pdftex.def)             Requested size: 181.91615pt x 137.10922pt.
+ [62pdfTeX warning (ext4): destination with the same identifier (name{algocf.18
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1574 T
+        hus we need one more :]
+<f_x_1_1_1_whole.png, id=1150, 586.8324pt x 442.2924pt>
+File: f_x_1_1_1_whole.png Graphic file (type png)
+
+<use f_x_1_1_1_whole.png>
+Package pdftex.def Info: f_x_1_1_1_whole.png used on input line 1577.
+(pdftex.def)             Requested size: 181.91615pt x 137.10922pt.
+
+<f_x_1_1_1_perio.png, id=1151, 586.8324pt x 442.2924pt>
+File: f_x_1_1_1_perio.png Graphic file (type png)
+
+<use f_x_1_1_1_perio.png>
+Package pdftex.def Info: f_x_1_1_1_perio.png used on input line 1585.
+(pdftex.def)             Requested size: 181.91615pt x 137.10922pt.
+ [63pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1588 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.11.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1588 
+        <./f_x_1_1_1.png> <./f_x_1_1_1_whole.png>]
+<f_g.png, id=1162, 586.8324pt x 442.2924pt>
+File: f_g.png Graphic file (type png)
+ <use f_g.png>
+Package pdftex.def Info: f_g.png used on input line 1624.
+(pdftex.def)             Requested size: 181.91615pt x 137.10922pt.
+ [64pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1627 T
+        hus we have :pdfTeX warning (ext4): destination with the same identifie
+r (name{algocf.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1627 T
+        hus we have : <./f_x_1_1_1_perio.png>] [65pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.11.7}) has been already used, dupli
+cate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1691 \subsubsection
+                     {Filter Support and Sparse Vector}pdfTeX warning (ext4): d
+estination with the same identifier (name{algocf.20}) has been already used, du
+plicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1691 \subsubsection
+                     {Filter Support and Sparse Vector} <./f_g.png>]
+<filter_bank.png, id=1180, 1445.4pt x 763.1712pt>
+File: filter_bank.png Graphic file (type png)
+ <use filter_bank.png>
+Package pdftex.def Info: filter_bank.png used on input line 1696.
+(pdftex.def)             Requested size: 448.06937pt x 236.58063pt.
+
+Overfull \hbox (103.06937pt too wide) in paragraph at lines 1696--1696
+ [][] 
+ []
+
+[66pdfTeX warning (ext4): destination with the same identifier (name{algocf.21}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1699 
+       ] <sparsity_filters.png, id=1190, 1445.4pt x 763.1712pt>
+File: sparsity_filters.png Graphic file (type png)
+
+<use sparsity_filters.png>
+Package pdftex.def Info: sparsity_filters.png used on input line 1702.
+(pdftex.def)             Requested size: 448.06937pt x 236.58063pt.
+
+Overfull \hbox (103.06937pt too wide) in paragraph at lines 1702--1702
+ [][] 
+ []
+
+[67pdfTeX warning (ext4): destination with the same identifier (name{figure.11.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1715 \end{align*}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.11.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1715 \end{align*}
+                    <./filter_bank.png> <./sparsity_filters.png>] [68pdfTeX war
+ning (ext4): destination with the same identifier (name{algocf.22}) has been al
+ready used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1761 
+       pdfTeX warning (ext4): destination with the same identifier (name{algocf
+.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1761 
+       pdfTeX warning (ext4): destination with the same identifier (name{algocf
+.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1761 
+       ] <layer_diagram.png, id=1212, 597.73312pt x 845.40843pt>
+File: layer_diagram.png Graphic file (type png)
+
+<use layer_diagram.png>
+Package pdftex.def Info: layer_diagram.png used on input line 1791.
+(pdftex.def)             Requested size: 239.089pt x 338.15738pt.
+ [69]
+<scatteering_diagram.png, id=1218, 597.73312pt x 845.40843pt>
+File: scatteering_diagram.png Graphic file (type png)
+
+<use scatteering_diagram.png>
+Package pdftex.def Info: scatteering_diagram.png used on input line 1819.
+(pdftex.def)             Requested size: 227.14095pt x 321.25853pt.
+ [70pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1822 \section
+               {Computation Time and Examples} <./layer_diagram.png>]
+<slow.png, id=1243, 1548.78625pt x 893.3375pt>
+File: slow.png Graphic file (type png)
+ <use slow.png>
+Package pdftex.def Info: slow.png used on input line 1835.
+(pdftex.def)             Requested size: 325.25471pt x 187.6064pt.
+
+
+Package natbib Warning: Citation `trone2015' on page 71 undefined on input line
+ 1835.
+
+
+Package natbib Warning: Citation `trone2015' on page 71 undefined on input line
+ 1835.
+
+
+Overfull \hbox (26.77855pt too wide) in paragraph at lines 1831--1837
+\OT1/cmr/m/n/10 In the ex-am-ples be-low we did not ap-ply any op-er-a-tion (lo
+g-a-rithm, re-normalization,...).
+ []
+
+[71pdfTeX warning (ext4): destination with the same identifier (name{figure.11.
+11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1837 \end{figure}
+                    <./scatteering_diagram.png>]
+<bird.png, id=1250, 1585.925pt x 895.345pt>
+File: bird.png Graphic file (type png)
+ <use bird.png>
+Package pdftex.def Info: bird.png used on input line 1841.
+(pdftex.def)             Requested size: 333.05408pt x 188.028pt.
+ [72pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1844 \part
+            {Validation on a Finite Element Approximation}pdfTeX warning (ext4)
+: destination with the same identifier (name{figure.11.13}) has been already us
+ed, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1844 \part
+            {Validation on a Finite Element Approximation} <./slow.png> <./bird
+.png>] [73
+
+]
+Chapter 12.
+<subdomain.png, id=1263, 235.88126pt x 240.9pt>
+File: subdomain.png Graphic file (type png)
+ <use subdomain.png>
+Package pdftex.def Info: subdomain.png used on input line 1889.
+(pdftex.def)             Requested size: 94.35083pt x 96.35828pt.
+ [74
+
+]
+[75pdfTeX warning (ext4): destination with the same identifier (name{figure.12.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1894 \chapter
+               {Variational Problem} <./subdomain.png>]
+Chapter 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1927--1928
+
+ []
+
+[76
+
+]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+ [77] [78]
+Chapter 14.
+[79
+
+] <mesh.png, id=1302, 597.73312pt x 845.40843pt>
+File: mesh.png Graphic file (type png)
+ <use mesh.png>
+Package pdftex.def Info: mesh.png used on input line 2050.
+(pdftex.def)             Requested size: 179.32132pt x 253.62448pt.
+ [80pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2074 \end{itemize}
+                     <./mesh.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2082.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2082.
+
+[81]
+Chapter 15.
+
+Overfull \hbox (11.00334pt too wide) in paragraph at lines 2154--2157
+\OT1/cmr/m/n/10 fined by its three nodes (where one of them is $\OML/cmm/m/it/1
+0 x[]$\OT1/cmr/m/n/10 ) $(\OML/cmm/m/it/10 x[]; y[]; z[]\OT1/cmr/m/n/10 )\OML/c
+mm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]; z[]\OT1/cmr/m/n/10 )\O
+ML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]; z[]\OT1/cmr/m/n/10
+ )$.
+ []
+
+[82
+
+]
+Overfull \hbox (12.16554pt too wide) in paragraph at lines 2231--2231
+[] 
+ []
+
+[83]
+Overfull \hbox (0.3956pt too wide) in paragraph at lines 2256--2256
+[] 
+ []
+
+<li.png, id=1321, 597.73312pt x 845.40843pt>
+File: li.png Graphic file (type png)
+ <use li.png>
+Package pdftex.def Info: li.png used on input line 2260.
+(pdftex.def)             Requested size: 179.32132pt x 253.62448pt.
+ [84]
+Overfull \hbox (2.35628pt too wide) in paragraph at lines 2263--2263
+[]\OT1/cmr/bx/n/14.4 Implementation of Piecewise-Defined Func-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2275.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2275.
+
+[85pdfTeX warning (ext4): destination with the same identifier (name{figure.15.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2278 \section
+               {Method to Fill the System $Au=L$} <./li.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2278.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2278.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2280--2292
+
+ []
+
+[86pdfTeX warning (ext4): destination with the same identifier (name{algocf.25}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2323 \]
+         pdfTeX warning (ext4): destination with the same identifier (name{algo
+cf.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2323 \]
+         ] <sparsity.png, id=1348, 1445.4pt x 763.8939pt>
+File: sparsity.png Graphic file (type png)
+ <use sparsity.png>
+Package pdftex.def Info: sparsity.png used on input line 2327.
+(pdftex.def)             Requested size: 346.90309pt x 183.33827pt.
+
+Overfull \hbox (1.90309pt too wide) in paragraph at lines 2327--2327
+ [][] 
+ []
+
+<LU_sparse.png, id=1349, 625.8582pt x 680.7834pt>
+File: LU_sparse.png Graphic file (type png)
+ <use LU_sparse.png>
+Package pdftex.def Info: LU_sparse.png used on input line 2333.
+(pdftex.def)             Requested size: 187.7589pt x 204.23659pt.
+ [87pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2341 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.15.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2341 
+        <./sparsity.png> <./LU_sparse.png>]
+<filling_time.png, id=1357, 1734.48pt x 922.8879pt>
+File: filling_time.png Graphic file (type png)
+ <use filling_time.png>
+Package pdftex.def Info: filling_time.png used on input line 2344.
+(pdftex.def)             Requested size: 346.88986pt x 184.57431pt.
+
+Overfull \hbox (1.88986pt too wide) in paragraph at lines 2344--2344
+ [][] 
+ []
+
+<GD_iter.png, id=1358, 1734.48pt x 922.8879pt>
+File: GD_iter.png Graphic file (type png)
+ <use GD_iter.png>
+Package pdftex.def Info: GD_iter.png used on input line 2351.
+(pdftex.def)             Requested size: 346.88986pt x 184.57431pt.
+
+Overfull \hbox (1.88986pt too wide) in paragraph at lines 2351--2351
+ [][] 
+ []
+
+[88pdfTeX warning (ext4): destination with the same identifier (name{figure.15.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2354 
+        <./filling_time.png>] <CGD_iter.png, id=1365, 1734.48pt x 922.8879pt>
+File: CGD_iter.png Graphic file (type png)
+
+<use CGD_iter.png>
+Package pdftex.def Info: CGD_iter.png used on input line 2358.
+(pdftex.def)             Requested size: 346.88986pt x 184.57431pt.
+
+Overfull \hbox (1.88986pt too wide) in paragraph at lines 2358--2358
+ [][] 
+ []
+
+[89pdfTeX warning (ext4): destination with the same identifier (name{figure.15.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2363 \chapter
+               {Examples and GUI}pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.15.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2363 \chapter
+               {Examples and GUI} <./GD_iter.png> <./CGD_iter.png>]
+Chapter 16.
+<fem_nude.png, id=1375, 837.1275pt x 750.805pt>
+File: fem_nude.png Graphic file (type png)
+ <use fem_nude.png>
+Package pdftex.def Info: fem_nude.png used on input line 2377.
+(pdftex.def)             Requested size: 334.84506pt x 300.31668pt.
+ [90
+
+]
+<set_alpha.png, id=1381, 299.1175pt x 159.59625pt>
+File: set_alpha.png Graphic file (type png)
+ <use set_alpha.png>
+Package pdftex.def Info: set_alpha.png used on input line 2383.
+(pdftex.def)             Requested size: 149.55838pt x 79.79791pt.
+
+<set_g.png, id=1382, 195.73125pt x 144.54pt>
+File: set_g.png Graphic file (type png)
+ <use set_g.png>
+Package pdftex.def Info: set_g.png used on input line 2389.
+(pdftex.def)             Requested size: 97.86537pt x 72.2698pt.
+ [91pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2392 F
+        inally, the last parameter to set for the discretized problem is the...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2392 F
+        inally, the last parameter to set for the discretized problem is the...
+ <./fem_nude.png> <./set_alpha.png>]
+<mesh_5.png, id=1389, 388.45125pt x 411.5375pt>
+File: mesh_5.png Graphic file (type png)
+ <use mesh_5.png>
+Package pdftex.def Info: mesh_5.png used on input line 2395.
+(pdftex.def)             Requested size: 194.22514pt x 205.76825pt.
+
+<mesh_100.png, id=1390, 944.52875pt x 878.28125pt>
+File: mesh_100.png Graphic file (type png)
+ <use mesh_100.png>
+Package pdftex.def Info: mesh_100.png used on input line 2402.
+(pdftex.def)             Requested size: 283.36081pt x 263.4864pt.
+ [92pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2405 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.16.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2405 
+        <./set_g.png> <./mesh_5.png>]
+<fem_main_example.png, id=1397, 1540.75626pt x 874.26625pt>
+File: fem_main_example.png Graphic file (type png)
+
+<use fem_main_example.png>
+Package pdftex.def Info: fem_main_example.png used on input line 2409.
+(pdftex.def)             Requested size: 308.1458pt x 174.85014pt.
+ [93pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2412 \newpage
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.16.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2412 \newpage
+                <./mesh_100.png> <./fem_main_example.png>]
+<example_1_alpha.png, id=1404, 303.1325pt x 161.60374pt>
+File: example_1_alpha.png Graphic file (type png)
+
+<use example_1_alpha.png>
+Package pdftex.def Info: example_1_alpha.png used on input line 2418.
+(pdftex.def)             Requested size: 151.56587pt x 80.80167pt.
+ <example_1_g.png, id=1405, 194.7275pt x 147.55125pt>
+File: example_1_g.png Graphic file (type png)
+
+<use example_1_g.png>
+Package pdftex.def Info: example_1_g.png used on input line 2425.
+(pdftex.def)             Requested size: 97.3635pt x 73.77544pt.
+
+<example_1_solution.png, id=1406, 1548.78625pt x 881.2925pt>
+File: example_1_solution.png Graphic file (type png)
+
+<use example_1_solution.png>
+Package pdftex.def Info: example_1_solution.png used on input line 2432.
+(pdftex.def)             Requested size: 356.21335pt x 202.69301pt.
+
+Overfull \hbox (11.21335pt too wide) in paragraph at lines 2432--2432
+ [][] 
+ []
+
+[94pdfTeX warning (ext4): destination with the same identifier (name{figure.16.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2435  \newpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.16.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2435  \newpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.16.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2435  \newpage
+                 <./example_1_alpha.png> <./example_1_g.png> <./example_1_solut
+ion.png>] <example_2_alpha.png, id=1414, 294.09875pt x 158.5925pt>
+File: example_2_alpha.png Graphic file (type png)
+
+<use example_2_alpha.png>
+Package pdftex.def Info: example_2_alpha.png used on input line 2439.
+(pdftex.def)             Requested size: 147.04901pt x 79.29604pt.
+
+<example_2_g.png, id=1415, 189.70876pt x 147.55125pt>
+File: example_2_g.png Graphic file (type png)
+ <use example_2_g.png>
+Package pdftex.def Info: example_2_g.png used on input line 2446.
+(pdftex.def)             Requested size: 94.85414pt x 73.77544pt.
+
+<example_2_solution.png, id=1416, 1538.74875pt x 872.25874pt>
+File: example_2_solution.png Graphic file (type png)
+
+<use example_2_solution.png>
+Package pdftex.def Info: example_2_solution.png used on input line 2453.
+(pdftex.def)             Requested size: 353.90477pt x 200.61528pt.
+
+Overfull \hbox (8.90477pt too wide) in paragraph at lines 2453--2453
+ [][] 
+ []
+
+[95pdfTeX warning (ext4): destination with the same identifier (name{figure.16.
+10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2456 \newpage
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.16.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2456 \newpage
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.16.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2456 \newpage
+                <./example_2_alpha.png> <./example_2_g.png> <./example_2_soluti
+on.png>]
+Chapter 17.
+<reference_alpha.png, id=1424, 302.12875pt x 167.62625pt>
+File: reference_alpha.png Graphic file (type png)
+
+<use reference_alpha.png>
+Package pdftex.def Info: reference_alpha.png used on input line 2468.
+(pdftex.def)             Requested size: 160.12747pt x 88.84148pt.
+ <reference_g.png, id=1425, 329.23pt x 163.61125pt>
+File: reference_g.png Graphic file (type png)
+
+<use reference_g.png>
+Package pdftex.def Info: reference_g.png used on input line 2475.
+(pdftex.def)             Requested size: 174.49106pt x 86.71353pt.
+ <reference_mesh.png, id=1426, 198.7425pt x 226.8475pt>
+File: reference_mesh.png Graphic file (type png)
+
+<use reference_mesh.png>
+Package pdftex.def Info: reference_mesh.png used on input line 2482.
+(pdftex.def)             Requested size: 125.20842pt x 142.91467pt.
+ [96
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2485 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.17.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2485 
+        <./reference_alpha.png> <./reference_g.png>]
+<reference_sol.png, id=1434, 1912.14375pt x 969.6225pt>
+File: reference_sol.png Graphic file (type png)
+
+<use reference_sol.png>
+Package pdftex.def Info: reference_sol.png used on input line 2488.
+(pdftex.def)             Requested size: 382.42198pt x 193.92107pt.
+
+Overfull \hbox (37.42198pt too wide) in paragraph at lines 2488--2488
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2501--2502
+
+ []
+
+<errorvsnorm.png, id=1435, 1102.1175pt x 740.7675pt>
+File: errorvsnorm.png Graphic file (type png)
+ <use errorvsnorm.png>
+Package pdftex.def Info: errorvsnorm.png used on input line 2506.
+(pdftex.def)             Requested size: 407.77708pt x 274.07968pt.
+
+Overfull \hbox (62.77708pt too wide) in paragraph at lines 2506--2506
+ [][] 
+ []
+
+[97pdfTeX warning (ext4): destination with the same identifier (name{figure.17.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2509 I
+        n this case, each subplot represents $|M_{ref}-M_i|$ but the key her...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17.4})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2509 I
+        n this case, each subplot represents $|M_{ref}-M_i|$ but the key her...
+ <./reference_mesh.png> <./reference_sol.png>]
+<errorvs.png, id=1442, 925.056pt x 740.7675pt>
+File: errorvs.png Graphic file (type png)
+ <use errorvs.png>
+Package pdftex.def Info: errorvs.png used on input line 2516.
+(pdftex.def)             Requested size: 388.52087pt x 311.12022pt.
+
+Overfull \hbox (43.52087pt too wide) in paragraph at lines 2516--2516
+ [][] 
+ []
+
+[98pdfTeX warning (ext4): destination with the same identifier (name{figure.17.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2519 N
+        ow we can clearly see that the middle-top sub-domain $\Omega_i$ is a...
+ <./errorvsnorm.png>] <error_h.png, id=1449, 1378.9116pt x 551.4201pt>
+File: error_h.png Graphic file (type png)
+
+<use error_h.png>
+Package pdftex.def Info: error_h.png used on input line 2525.
+(pdftex.def)             Requested size: 344.72705pt x 137.85469pt.
+ [99pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2528 W
+        hen we plot the error versus $1/N$ we clearly see the error which is...
+ <./errorvs.png>] [100pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.17.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2529 \part
+            {Benchmark and Bioacoustic Classification} <./error_h.png>]
+[101
+
+]
+Chapter 18.
+[102
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2552--2583
+
+ []
+
+
+Overfull \hbox (19.58046pt too wide) in paragraph at lines 2552--2583
+[] 
+ []
+
+[103] [104] [105] [106] [107]
+Chapter 19.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2726--2727
+
+ []
+
+[108
+
+] [109] <T_S0.png, id=1511, 975.645pt x 740.7675pt>
+File: T_S0.png Graphic file (type png)
+ <use T_S0.png>
+Package pdftex.def Info: T_S0.png used on input line 2816.
+(pdftex.def)             Requested size: 243.91064pt x 185.19142pt.
+
+<mean_S0.png, id=1512, 1393.3656pt x 763.1712pt>
+File: mean_S0.png Graphic file (type png)
+ <use mean_S0.png>
+Package pdftex.def Info: mean_S0.png used on input line 2827.
+(pdftex.def)             Requested size: 348.34055pt x 190.79233pt.
+
+Overfull \hbox (3.34055pt too wide) in paragraph at lines 2827--2827
+ [][] 
+ []
+
+[110pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2830 
+        <./T_S0.png>] <std_S0.png, id=1519, 1393.3656pt x 763.1712pt>
+File: std_S0.png Graphic file (type png)
+
+<use std_S0.png>
+Package pdftex.def Info: std_S0.png used on input line 2833.
+(pdftex.def)             Requested size: 348.34055pt x 190.79233pt.
+
+Overfull \hbox (3.34055pt too wide) in paragraph at lines 2833--2833
+ [][] 
+ []
+
+<maximum_S0.png, id=1520, 1393.3656pt x 763.1712pt>
+File: maximum_S0.png Graphic file (type png)
+ <use maximum_S0.png>
+Package pdftex.def Info: maximum_S0.png used on input line 2839.
+(pdftex.def)             Requested size: 348.34055pt x 190.79233pt.
+
+Overfull \hbox (3.34055pt too wide) in paragraph at lines 2839--2839
+ [][] 
+ []
+
+[111pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2842 W
+        e can see that for some examples, the maximum feature seem more reli...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2842 W
+        e can see that for some examples, the maximum feature seem more reli...
+ <./mean_S0.png> <./std_S0.png>]
+<corr_S0.png, id=1529, 1393.3656pt x 763.1712pt>
+File: corr_S0.png Graphic file (type png)
+ <use corr_S0.png>
+Package pdftex.def Info: corr_S0.png used on input line 2846.
+(pdftex.def)             Requested size: 348.34055pt x 190.79233pt.
+
+Overfull \hbox (3.34055pt too wide) in paragraph at lines 2846--2846
+ [][] 
+ []
+
+<features_cross_S0.png, id=1530, 1393.3656pt x 763.1712pt>
+File: features_cross_S0.png Graphic file (type png)
+
+<use features_cross_S0.png>
+Package pdftex.def Info: features_cross_S0.png used on input line 2853.
+(pdftex.def)             Requested size: 278.66818pt x 152.63153pt.
+ [112pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+9.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2856 W
+        e can see that only the standard deviation features provide the best...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19.5})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2856 W
+        e can see that only the standard deviation features provide the best...
+ <./maximum_S0.png> <./corr_S0.png>]
+<hidden_S0.png, id=1539, 1393.3656pt x 763.1712pt>
+File: hidden_S0.png Graphic file (type png)
+ <use hidden_S0.png>
+Package pdftex.def Info: hidden_S0.png used on input line 2862.
+(pdftex.def)             Requested size: 278.66818pt x 152.63153pt.
+ [113pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+9.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2869 \section
+               {Two Scattering Layers}pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.19.7}) has been already used, duplicate ignored
+
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2869 \section
+               {Two Scattering Layers} <./features_cross_S0.png> <./hidden_S0.p
+ng>]
+Overfull \hbox (67.1978pt too wide) detected at line 2882
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2882--2884
+
+ []
+
+[114]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2951.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2951.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2951.
+
+<cross_T2.png, id=1558, 1393.3656pt x 763.1712pt>
+File: cross_T2.png Graphic file (type png)
+ <use cross_T2.png>
+Package pdftex.def Info: cross_T2.png used on input line 2955.
+(pdftex.def)             Requested size: 278.66818pt x 152.63153pt.
+ [115pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+9.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2959 \subsection
+                  {Cross-validation : features} <./cross_T2.png>]
+<S1_cross.png, id=1567, 874.467pt x 732.0951pt>
+File: S1_cross.png Graphic file (type png)
+ <use S1_cross.png>
+Package pdftex.def Info: S1_cross.png used on input line 2963.
+(pdftex.def)             Requested size: 174.89029pt x 146.41641pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2966--2967
+
+ []
+
+<S0_S1.png, id=1568, 586.8324pt x 442.2924pt>
+File: S0_S1.png Graphic file (type png)
+ <use S0_S1.png>
+Package pdftex.def Info: S0_S1.png used on input line 2971.
+(pdftex.def)             Requested size: 117.3644pt x 88.45691pt.
+
+<cross_neuron_S0_S1.png, id=1569, 1393.3656pt x 763.1712pt>
+File: cross_neuron_S0_S1.png Graphic file (type png)
+
+<use cross_neuron_S0_S1.png>
+Package pdftex.def Info: cross_neuron_S0_S1.png used on input line 2979.
+(pdftex.def)             Requested size: 278.66818pt x 152.63153pt.
+ [116pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+9.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2981 \end{figure}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.19.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2981 \end{figure}
+                    <./S1_cross.png> <./S0_S1.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2989.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2989.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2989.
+
+[117pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2993 \begin{equation}
+                        <./cross_neuron_S0_S1.png>]
+<RN5821_1.png, id=1589, 3613.5pt x 3613.5pt>
+File: RN5821_1.png Graphic file (type png)
+ <use RN5821_1.png>
+Package pdftex.def Info: RN5821_1.png used on input line 3021.
+(pdftex.def)             Requested size: 361.37117pt x 361.37117pt.
+
+Overfull \hbox (16.37117pt too wide) in paragraph at lines 3021--3021
+ [][] 
+ []
+
+[118] <RN5821_3.png, id=1596, 3613.5pt x 3613.5pt>
+File: RN5821_3.png Graphic file (type png)
+ <use RN5821_3.png>
+Package pdftex.def Info: RN5821_3.png used on input line 3028.
+(pdftex.def)             Requested size: 361.37117pt x 361.37117pt.
+
+Overfull \hbox (16.37117pt too wide) in paragraph at lines 3028--3028
+ [][] 
+ []
+
+[119pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3031 
+        <./RN5821_1.png>] <RN1017_1.png, id=1602, 3613.5pt x 3613.5pt>
+File: RN1017_1.png Graphic file (type png)
+
+<use RN1017_1.png>
+Package pdftex.def Info: RN1017_1.png used on input line 3035.
+(pdftex.def)             Requested size: 361.37117pt x 361.37117pt.
+
+Overfull \hbox (16.37117pt too wide) in paragraph at lines 3035--3035
+ [][] 
+ []
+
+[120pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3038 
+        <./RN5821_3.png>] <RN1017_3.png, id=1609, 3613.5pt x 3613.5pt>
+File: RN1017_3.png Graphic file (type png)
+
+<use RN1017_3.png>
+Package pdftex.def Info: RN1017_3.png used on input line 3041.
+(pdftex.def)             Requested size: 361.37117pt x 361.37117pt.
+
+Overfull \hbox (16.37117pt too wide) in paragraph at lines 3041--3041
+ [][] 
+ []
+
+[121pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3044 
+        <./RN1017_1.png>] <RN819_1.png, id=1615, 3613.5pt x 3613.5pt>
+File: RN819_1.png Graphic file (type png)
+
+<use RN819_1.png>
+Package pdftex.def Info: RN819_1.png used on input line 3048.
+(pdftex.def)             Requested size: 361.37117pt x 361.37117pt.
+
+Overfull \hbox (16.37117pt too wide) in paragraph at lines 3048--3048
+ [][] 
+ []
+
+[122pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3051 
+        <./RN1017_3.png>] <RN819_3.png, id=1621, 3613.5pt x 3613.5pt>
+File: RN819_3.png Graphic file (type png)
+
+<use RN819_3.png>
+Package pdftex.def Info: RN819_3.png used on input line 3054.
+(pdftex.def)             Requested size: 361.37117pt x 361.37117pt.
+
+Overfull \hbox (16.37117pt too wide) in paragraph at lines 3054--3054
+ [][] 
+ []
+
+[123pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3057 I
+        n this last case we can see that a "denoising" technique such as exp...
+ <./RN819_1.png>] <cross_T2_agregated.png, id=1627, 969.8634pt x 718.3638pt>
+File: cross_T2_agregated.png Graphic file (type png)
+
+<use cross_T2_agregated.png>
+Package pdftex.def Info: cross_T2_agregated.png used on input line 3065.
+(pdftex.def)             Requested size: 290.96126pt x 215.5108pt.
+ [124pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+9.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3068 T
+        he features are also optimized : <./RN819_3.png>]
+<cross_features_S0_S1_agregated.png, id=1634, 586.8324pt x 442.2924pt>
+File: cross_features_S0_S1_agregated.png Graphic file (type png)
+
+<use cross_features_S0_S1_agregated.png>
+Package pdftex.def Info: cross_features_S0_S1_agregated.png used on input line 
+3071.
+(pdftex.def)             Requested size: 293.41548pt x 221.14566pt.
+
+<cross_neuron_S2_agreg.png, id=1635, 785.5749pt x 740.7675pt>
+File: cross_neuron_S2_agreg.png Graphic file (type png)
+
+<use cross_neuron_S2_agreg.png>
+Package pdftex.def Info: cross_neuron_S2_agreg.png used on input line 3078.
+(pdftex.def)             Requested size: 235.67429pt x 222.23196pt.
+ [125pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+9.18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3081 W
+        e can then reach an accuracy of $35\%$ by simply aggregating informa...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19.19}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3081 W
+        e can then reach an accuracy of $35\%$ by simply aggregating informa...
+ <./cross_T2_agregated.png> <./cross_features_S0_S1_agregated.png>]
+<b_i_coeffs.png, id=1644, 1393.3656pt x 763.1712pt>
+File: b_i_coeffs.png Graphic file (type png)
+ <use b_i_coeffs.png>
+Package pdftex.def Info: b_i_coeffs.png used on input line 3087.
+(pdftex.def)             Requested size: 278.66818pt x 152.63153pt.
+
+<cross_T2_weighted_agregated.png, id=1645, 586.8324pt x 442.2924pt>
+File: cross_T2_weighted_agregated.png Graphic file (type png)
+
+<use cross_T2_weighted_agregated.png>
+Package pdftex.def Info: cross_T2_weighted_agregated.png used on input line 309
+6.
+(pdftex.def)             Requested size: 293.41548pt x 221.14566pt.
+ [126pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+9.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3098 \end{figure}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.19.21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3098 \end{figure}
+                    <./cross_neuron_S2_agreg.png> <./b_i_coeffs.png>]
+<cross_features_S0_S1_weighted.png, id=1657, 586.8324pt x 442.2924pt>
+File: cross_features_S0_S1_weighted.png Graphic file (type png)
+
+<use cross_features_S0_S1_weighted.png>
+Package pdftex.def Info: cross_features_S0_S1_weighted.png used on input line 3
+102.
+(pdftex.def)             Requested size: 293.41548pt x 221.14566pt.
+
+<cross_neuron_S2_weighted.png, id=1658, 851.3406pt x 740.7675pt>
+File: cross_neuron_S2_weighted.png Graphic file (type png)
+
+<use cross_neuron_S2_weighted.png>
+Package pdftex.def Info: cross_neuron_S2_weighted.png used on input line 3108.
+(pdftex.def)             Requested size: 255.40414pt x 222.23196pt.
+ [127pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+9.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3110 \end{figure}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.19.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3110 \end{figure}
+                    <./cross_T2_weighted_agregated.png> <./cross_features_S0_S1
+_weighted.png>] [128pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.19.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3116 \chapter
+               {Discussion and Conclusion} <./cross_neuron_S2_weighted.png>]
+Chapter 20.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3118.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 3118.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3118.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3132--3136
+
+ []
+
+[129
+
+] [130] (./falg.bbl) [131
+
+] [132
+
+]
+Appendix A.
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+)
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+ [133
+
+]
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no œ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ‚ in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+Missing character: There is no â in font cmr5!
+Missing character: There is no ” in font cmr5!
+Missing character: There is no € in font cmr5!
+ [134]
+Appendix B.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3237--3277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3237--3277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3237--3277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3237--3277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3237--3277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3237--3277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3237--3277
+
+ []
+
+<gaussian.png, id=1788, 1682.4456pt x 922.8879pt>
+File: gaussian.png Graphic file (type png)
+ <use gaussian.png>
+Package pdftex.def Info: gaussian.png used on input line 3295.
+(pdftex.def)             Requested size: 353.324pt x 193.81218pt.
+
+Overfull \hbox (8.324pt too wide) in paragraph at lines 3295--3296
+ [] 
+ []
+
+[135
+
+] [136pdfTeX warning (ext4): destination with the same identifier (name{figure.
+B.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3300 \part
+            {Application on Seizure Onset Zone prediction} <./gaussian.png>]
+[137
+
+]
+Appendix C.
+[138
+
+]
+Appendix D.
+[139
+
+]
+Appendix E.
+
+Package natbib Warning: There were undefined citations.
+
+[140
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3321.
+ (./falg.aux
+! Extra }, or forgotten \endgroup.
+l.428 ection*.37}
+                 }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+l.428 ection*.37}}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3321.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3321.
+
+
+
+Package rerunfilecheck Warning: File `falg.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `falg.out':
+(rerunfilecheck)             Before: 4858C9D92CC2D4C45536245C41613802;8192
+(rerunfilecheck)             After:  BB5673D7703ECF44CF0043F447D8E950;10330.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3321.
+ ) 
+Here is how much of TeX's memory you used:
+ 31406 strings out of 494977
+ 695570 string characters out of 6180184
+ 909922 words of memory out of 5000000
+ 33213 multiletter control sequences out of 15000+600000
+ 16477 words of font info for 63 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 62i,22n,97p,1252b,1980s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+tt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on falg.pdf (141 pages, 40323757 bytes).
+PDF statistics:
+ 2085 PDF objects out of 2487 (max. 8388607)
+ 1751 compressed objects within 18 object streams
+ 800 named destinations out of 1000 (max. 500000)
+ 1457 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.226 ...^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 31433 strings out of 494977
+ 695992 string characters out of 6180184
+ 909956 words of memory out of 5000000
+ 33237 multiletter control sequences out of 15000+600000
+ 16477 words of font info for 63 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 62i,22n,97p,16499b,1980s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+!  ==> Fatal error occurred, no output PDF file produced!

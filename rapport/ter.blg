@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ter.aux
+The style file: plain.bst
+Database file #1: ref2.bib
+Warning--entry type for "stanfordwav" isn't style-file defined
+--line 73 of file ref2.bib
+Warning--entry type for "internL3" isn't style-file defined
+--line 82 of file ref2.bib
+Warning--entry type for "CIGAL" isn't style-file defined
+--line 91 of file ref2.bib
+Warning--entry type for "wikiwav" isn't style-file defined
+--line 101 of file ref2.bib
+Warning--entry type for "wikifft" isn't style-file defined
+--line 109 of file ref2.bib
+Warning--entry type for "dobbfft" isn't style-file defined
+--line 117 of file ref2.bib
+Warning--entry type for "codeprojectfft" isn't style-file defined
+--line 125 of file ref2.bib
+Warning--entry type for "learnfft" isn't style-file defined
+--line 133 of file ref2.bib
+Warning--to sort, need author or key in learnfft
+Warning--empty booktitle in m3
+Warning--empty booktitle in randall5
+Warning--empty booktitle in m2
+Warning--empty booktitle in m1
+You've used 16 entries,
+            2118 wiz_defined-function locations,
+            573 strings with 6345 characters,
+and the built_in function-call counts, 4042 in all, are:
+= -- 362
+> -- 188
+< -- 0
++ -- 79
+- -- 60
+* -- 212
+:= -- 682
+add.period$ -- 47
+call.type$ -- 16
+change.case$ -- 76
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 157
+empty$ -- 380
+format.name$ -- 60
+if$ -- 858
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 10
+newline$ -- 82
+num.names$ -- 30
+pop$ -- 137
+preamble$ -- 1
+purify$ -- 62
+quote$ -- 0
+skip$ -- 113
+stack$ -- 0
+substring$ -- 101
+swap$ -- 17
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 60
+warning$ -- 5
+while$ -- 31
+width$ -- 18
+write$ -- 161
+(There were 13 warnings)

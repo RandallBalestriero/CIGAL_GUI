@@ -1,0 +1,208 @@
+
+-larmadillo -lrfftw -lfftw -lm
+
+/!\ the available makefile (automatically generated 
+with qmake but modified to tweak the compilation options) 
+will compile the C++ code of app.cpp automatically producing 
+the application with GUI. The .pro file lists all the files and 
+is necessary for the Qt project. Qt must be installed to use the GUI
+
+IF YOU HAVE QT to compile and execute the program :
+make
+make clean
+./FALG
+
+IF YOU DO NOT HAVE QT  to compile and execute the program :
+g++ -Ofast -Wall -std=c++0x main.cpp -o main
+./main
+python plot_mesh.py
+
+The compilation using make takes about 30 seconds and generates 
+the executable called ./FALG
+use make clean to delete all the .o files generated
+BUT if you do not have Qt4(+) on your computer you won't be able 
+to do this, thus a demo code (main.cpp) is available. It will compute
+a finite element approximation of the given problem and save the solution 
+into a .txt file. This solution is then showed using python
+in any cases, screenshots of the GUI are provided inside the .pdf
+
+
+/!\ executables are already compiled so if you are under linux (Debian) 
+then there is no need to recompile it (for the main executable).
+
+
+/!\ directories
+-report is a directory containing all the pictures and data used 
+for the report but no C++ files are inside it.
+-source is the main directory containing all the subdirectories 
+with all the C++ .h and .cpp files of the library
+
+
+/!\ here is the list of all the files in the source directory :
+./source/
+├── algebra
+│   └── solve.h
+├── automaton
+│   ├── 1D_function_parser.cpp
+│   ├── 1D_function_parser.h
+│   ├── 2D_function_parser.cpp
+│   └── 2D_function_parser.h
+├── cigal
+│   ├── bank_filter_psis
+│   │   ├── 0
+│   │   ├── 1
+│   │   ├── 10
+│   │   ├── 11
+│   │   ├── 12
+│   │   ├── 13
+│   │   ├── 14
+│   │   ├── 15
+│   │   ├── 16
+│   │   ├── 17
+│   │   ├── 18
+│   │   ├── 19
+│   │   ├── 2
+│   │   ├── 20
+│   │   ├── 21
+│   │   ├── 22
+│   │   ├── 23
+│   │   ├── 24
+│   │   ├── 25
+│   │   ├── 26
+│   │   ├── 27
+│   │   ├── 28
+│   │   ├── 29
+│   │   ├── 3
+│   │   ├── 30
+│   │   ├── 31
+│   │   ├── 32
+│   │   ├── 33
+│   │   ├── 34
+│   │   ├── 35
+│   │   ├── 36
+│   │   ├── 37
+│   │   ├── 38
+│   │   ├── 39
+│   │   ├── 4
+│   │   ├── 40
+│   │   ├── 4096_8_5_2097152
+│   │   ├── 41
+│   │   ├── 42
+│   │   ├── 43
+│   │   ├── 44
+│   │   ├── 45
+│   │   ├── 46
+│   │   ├── 47
+│   │   ├── 48
+│   │   ├── 49
+│   │   ├── 5
+│   │   ├── 50
+│   │   ├── 51
+│   │   ├── 52
+│   │   ├── 53
+│   │   ├── 54
+│   │   ├── 55
+│   │   ├── 56
+│   │   ├── 57
+│   │   ├── 58
+│   │   ├── 59
+│   │   ├── 6
+│   │   ├── 60
+│   │   ├── 61
+│   │   ├── 62
+│   │   ├── 63
+│   │   ├── 64
+│   │   ├── 65
+│   │   ├── 66
+│   │   ├── 67
+│   │   ├── 68
+│   │   ├── 69
+│   │   ├── 7
+│   │   ├── 70
+│   │   ├── 71
+│   │   ├── 72
+│   │   ├── 73
+│   │   ├── 74
+│   │   ├── 75
+│   │   ├── 76
+│   │   ├── 77
+│   │   ├── 78
+│   │   ├── 79
+│   │   ├── 8
+│   │   └── 9
+│   ├── fft.h
+│   ├── filter_struct.h
+│   ├── layer_struct.h
+│   ├── loadtxt.h
+│   ├── meta_param.h
+│   ├── network_struct.h
+│   ├── spectrogram.h
+│   └── wav.h
+├── CIGAL.h
+├── CIRIL.h
+├── container
+│   └── container.h
+├── fem
+│   └── fem.h
+├── geometry
+│   └── geometry.h
+├── linked_list
+│   ├── linked_list.h
+│   └── souble_list.h
+├── matrix
+│   ├── plain
+│   │   ├── fixed_plain_matrix.h
+│   │   ├── plain_matrix.h
+│   │   ├── plain_matrix_utils.h
+│   │   └── virtual_plain_matrix.h
+│   ├── sparse
+│   │   ├── sparse_band_matrix.h
+│   │   ├── sparse_matrix.h
+│   │   ├── sparse_triangular_matrix.h
+│   │   └── virtual_sparse_matrix.h
+│   └── virtual_matrix.h
+├── mesh
+│   ├── 1D_mesh.h
+│   ├── 2D_rectangular_mesh.h
+│   └── 2D_triangular_mesh.h
+├── PLAIN_MATRIX.h
+├── PLAIN_VECTOR.h
+├── qt
+│   ├── fem2
+│   │   ├── fem_plotting.cpp
+│   │   ├── fem_plotting.h
+│   │   ├── fem_window.cpp
+│   │   ├── fem_window.h
+│   │   ├── figure_1.png
+│   │   ├── image.gif
+│   │   ├── problem.png
+│   │   ├── square.png
+│   │   └── varia_formula.png
+│   ├── main_window.cpp
+│   ├── main_window.h
+│   ├── plotting
+│   │   ├── 1D_mesh_painter.cpp
+│   │   ├── 1D_mesh_painter.h
+│   │   ├── 1D_window.cpp
+│   │   └── 1D_window.h
+│   ├── plotting2
+│   │   ├── 2D_mesh_painter.cpp
+│   │   ├── 2D_mesh_painter.h
+│   │   ├── 2D_window.cpp
+│   │   └── 2D_window.h
+│   ├── utils.cpp
+│   ├── utils.h
+│   └── window_info.h
+├── SPARSE_MATRIX.h
+├── utils
+│   └── directories.h
+└── vector
+    ├── plain
+    │   ├── plain_vector.h
+    │   ├── plain_vector_utils.h
+    │   └── virtual_plain_vector.h
+    └── virtual_vector.h
+
+2
+
+

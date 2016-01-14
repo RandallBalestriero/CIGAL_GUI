@@ -1,0 +1,153 @@
+\BOOKMARK [-1][-]{part.1}{I Fast Linear Algebra Implementation}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Presentation}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Utilities}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Operators Overload}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{De-vectorization}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.4.1}{Motivation}{section.1.4}% 7
+\BOOKMARK [2][-]{subsection.1.4.2}{Concept}{section.1.4}% 8
+\BOOKMARK [0][-]{chapter.2}{Function parser}{part.1}% 9
+\BOOKMARK [1][-]{section.2.1}{Motivation}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Tree Generation}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Rules}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{Structure}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Tree Evaluation}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{Implemented functions}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.5}{Example}{chapter.2}% 16
+\BOOKMARK [0][-]{chapter.3}{Vector, Plain Matrix, Sparse Matrix }{part.1}% 17
+\BOOKMARK [1][-]{section.3.1}{Motivation}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{Vector Resizing}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{Utilities}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.4}{Examples}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.5}{Sparse Matrix}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.5.1}{Product Matrix-Vector}{section.3.5}% 23
+\BOOKMARK [2][-]{subsection.3.5.2}{Sparse Matrix : CSR}{section.3.5}% 24
+\BOOKMARK [0][-]{chapter.4}{Solver}{part.1}% 25
+\BOOKMARK [1][-]{section.4.1}{Direct Method}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.1.1}{LU decomposition}{section.4.1}% 27
+\BOOKMARK [2][-]{subsection.4.1.2}{Matrix Invert Computation}{section.4.1}% 28
+\BOOKMARK [2][-]{subsection.4.1.3}{Computing the Matrix Determinant}{section.4.1}% 29
+\BOOKMARK [1][-]{section.4.2}{Iterative Methods}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.2.1}{Jacobi}{section.4.2}% 31
+\BOOKMARK [2][-]{subsection.4.2.2}{Gauss-Seidel}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.3}{Successive Over Relaxation}{section.4.2}% 33
+\BOOKMARK [1][-]{section.4.3}{Gradient Based Methods}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.3.1}{Gradient Descent}{section.4.3}% 35
+\BOOKMARK [2][-]{subsection.4.3.2}{Conjugate Gradient Descent}{section.4.3}% 36
+\BOOKMARK [2][-]{subsection.4.3.3}{Preconditioning}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.4}{Example}{section.4.3}% 38
+\BOOKMARK [0][-]{chapter.5}{Mesh}{part.1}% 39
+\BOOKMARK [1][-]{section.5.1}{2D Triangular Mesh}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.1.1}{Storage}{section.5.1}% 41
+\BOOKMARK [2][-]{subsection.5.1.2}{IO}{section.5.1}% 42
+\BOOKMARK [1][-]{section.5.2}{2D rectangular mesh}{chapter.5}% 43
+\BOOKMARK [0][-]{chapter.6}{User Interface}{part.1}% 44
+\BOOKMARK [1][-]{section.6.1}{Motivation}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{Menu}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.3}{Plotting/Vizualisation}{chapter.6}% 47
+\BOOKMARK [2][-]{subsection.6.3.1}{1D}{section.6.3}% 48
+\BOOKMARK [2][-]{subsection.6.3.2}{2D}{section.6.3}% 49
+\BOOKMARK [-1][-]{part.2}{II Fast Scattering}{}% 50
+\BOOKMARK [0][-]{chapter.7}{Scattering Network}{part.2}% 51
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 52
+\BOOKMARK [1][-]{section.7.2}{Filter Bank}{chapter.7}% 53
+\BOOKMARK [1][-]{section.7.3}{Scattering Layer}{chapter.7}% 54
+\BOOKMARK [0][-]{chapter.8}{Choice for Fast Audio File Manipulation}{part.2}% 55
+\BOOKMARK [1][-]{section.8.1}{File Structure}{chapter.8}% 56
+\BOOKMARK [1][-]{section.8.2}{Implementation}{chapter.8}% 57
+\BOOKMARK [0][-]{chapter.9}{Fast Fourier Transform implementation}{part.2}% 58
+\BOOKMARK [1][-]{section.9.1}{Definitions}{chapter.9}% 59
+\BOOKMARK [1][-]{section.9.2}{Fast Fourier Transform}{chapter.9}% 60
+\BOOKMARK [1][-]{section.9.3}{Inverse Fourier Transform}{chapter.9}% 61
+\BOOKMARK [1][-]{section.9.4}{Algorithm}{chapter.9}% 62
+\BOOKMARK [1][-]{section.9.5}{Graph}{chapter.9}% 63
+\BOOKMARK [0][-]{chapter.10}{Spectrogram}{part.2}% 64
+\BOOKMARK [1][-]{section.10.1}{Algorithm}{chapter.10}% 65
+\BOOKMARK [1][-]{section.10.2}{Implementation}{chapter.10}% 66
+\BOOKMARK [1][-]{section.10.3}{Graph}{chapter.10}% 67
+\BOOKMARK [1][-]{section.10.4}{Examples}{chapter.10}% 68
+\BOOKMARK [0][-]{chapter.11}{Scattering Network Fast Implementation}{part.2}% 69
+\BOOKMARK [1][-]{section.11.1}{Meta-Parameters}{chapter.11}% 70
+\BOOKMARK [1][-]{section.11.2}{Filter Bank}{chapter.11}% 71
+\BOOKMARK [2][-]{subsection.11.2.1}{Implementation}{section.11.2}% 72
+\BOOKMARK [2][-]{subsection.11.2.2}{Optimization and Computation Time}{section.11.2}% 73
+\BOOKMARK [1][-]{section.11.3}{Layer Implementation}{chapter.11}% 74
+\BOOKMARK [1][-]{section.11.4}{Scattering Network Implementation}{chapter.11}% 75
+\BOOKMARK [1][-]{section.11.5}{Computation Time and Examples}{chapter.11}% 76
+\BOOKMARK [2][-]{subsection.11.5.1}{Computation Time}{section.11.5}% 77
+\BOOKMARK [2][-]{subsection.11.5.2}{Examples}{section.11.5}% 78
+\BOOKMARK [-1][-]{part.3}{III Validation on a Finite Element Approximation}{}% 79
+\BOOKMARK [0][-]{chapter.12}{Initial Problem}{part.3}% 80
+\BOOKMARK [0][-]{chapter.13}{Variational Problem}{part.3}% 81
+\BOOKMARK [1][-]{section.13.1}{Weak Form Derivation}{chapter.13}% 82
+\BOOKMARK [1][-]{section.13.2}{Problem Equivalence}{chapter.13}% 83
+\BOOKMARK [1][-]{section.13.3}{Existence and Uniqueness of the Solution}{chapter.13}% 84
+\BOOKMARK [0][-]{chapter.14}{Discretized Problem}{part.3}% 85
+\BOOKMARK [1][-]{section.14.1}{Existence and Uniqueness of the Solution}{chapter.14}% 86
+\BOOKMARK [1][-]{section.14.2}{Mesh Description}{chapter.14}% 87
+\BOOKMARK [1][-]{section.14.3}{System Au=L}{chapter.14}% 88
+\BOOKMARK [0][-]{chapter.15}{Discretized Problem Computation}{part.3}% 89
+\BOOKMARK [1][-]{section.15.1}{Quadrature}{chapter.15}% 90
+\BOOKMARK [2][-]{subsection.15.1.1}{Triangle Area}{section.15.1}% 91
+\BOOKMARK [2][-]{subsection.15.1.2}{Hat Functions}{section.15.1}% 92
+\BOOKMARK [1][-]{section.15.2}{Bilinear Form Computation}{chapter.15}% 93
+\BOOKMARK [1][-]{section.15.3}{Linear Form Computation}{chapter.15}% 94
+\BOOKMARK [1][-]{section.15.4}{Implementation of Piecewise-Defined Functions}{chapter.15}% 95
+\BOOKMARK [2][-]{subsection.15.4.1}{ function}{section.15.4}% 96
+\BOOKMARK [2][-]{subsection.15.4.2}{g function}{section.15.4}% 97
+\BOOKMARK [1][-]{section.15.5}{Method to Fill the System Au=L}{chapter.15}% 98
+\BOOKMARK [2][-]{subsection.15.5.1}{Optimized Approach}{section.15.5}% 99
+\BOOKMARK [2][-]{subsection.15.5.2}{Computation time,Convergence, Optimization}{section.15.5}% 100
+\BOOKMARK [0][-]{chapter.16}{Examples and GUI}{part.3}% 101
+\BOOKMARK [1][-]{section.16.1}{GUI}{chapter.16}% 102
+\BOOKMARK [1][-]{section.16.2}{Examples}{chapter.16}% 103
+\BOOKMARK [2][-]{subsection.16.2.1}{Example 1}{section.16.2}% 104
+\BOOKMARK [2][-]{subsection.16.2.2}{Example 2}{section.16.2}% 105
+\BOOKMARK [0][-]{chapter.17}{Error Analysis}{part.3}% 106
+\BOOKMARK [1][-]{section.17.1}{Considered Problem}{chapter.17}% 107
+\BOOKMARK [1][-]{section.17.2}{Analysis}{chapter.17}% 108
+\BOOKMARK [-1][-]{part.4}{IV Benchmark and Bioacoustic Classification}{}% 109
+\BOOKMARK [0][-]{chapter.18}{Challenge Presentation}{part.4}% 110
+\BOOKMARK [1][-]{section.18.1}{Description}{chapter.18}% 111
+\BOOKMARK [1][-]{section.18.2}{Problem Approach}{chapter.18}% 112
+\BOOKMARK [1][-]{section.18.3}{Informative Features Analysis}{chapter.18}% 113
+\BOOKMARK [2][-]{subsection.18.3.1}{Row Conditioning}{section.18.3}% 114
+\BOOKMARK [2][-]{subsection.18.3.2}{Word Extraction}{section.18.3}% 115
+\BOOKMARK [2][-]{subsection.18.3.3}{Song Extraction}{section.18.3}% 116
+\BOOKMARK [2][-]{subsection.18.3.4}{Examples}{section.18.3}% 117
+\BOOKMARK [2][-]{subsection.18.3.5}{Conclusion}{section.18.3}% 118
+\BOOKMARK [0][-]{chapter.19}{Classification Algorithms using the Scattering Network}{part.4}% 119
+\BOOKMARK [1][-]{section.19.1}{One Scattering Layer}{chapter.19}% 120
+\BOOKMARK [2][-]{subsection.19.1.1}{Architecture}{section.19.1}% 121
+\BOOKMARK [2][-]{subsection.19.1.2}{Cross-validation : T}{section.19.1}% 122
+\BOOKMARK [2][-]{subsection.19.1.3}{Cross-validation : Features}{section.19.1}% 123
+\BOOKMARK [2][-]{subsection.19.1.4}{Cross-validation : Neurons}{section.19.1}% 124
+\BOOKMARK [2][-]{subsection.19.1.5}{Results Summary and Discussions}{section.19.1}% 125
+\BOOKMARK [1][-]{section.19.2}{Two Scattering Layers}{chapter.19}% 126
+\BOOKMARK [2][-]{subsection.19.2.1}{Architecture}{section.19.2}% 127
+\BOOKMARK [2][-]{subsection.19.2.2}{Cross-validation : T2}{section.19.2}% 128
+\BOOKMARK [2][-]{subsection.19.2.3}{Cross-validation : features}{section.19.2}% 129
+\BOOKMARK [2][-]{subsection.19.2.4}{Cross-validation neurons}{section.19.2}% 130
+\BOOKMARK [2][-]{subsection.19.2.5}{Results Summary and Discussions}{section.19.2}% 131
+\BOOKMARK [1][-]{section.19.3}{Two Layers with U2 Thresholding}{chapter.19}% 132
+\BOOKMARK [2][-]{subsection.19.3.1}{Architecture}{section.19.3}% 133
+\BOOKMARK [2][-]{subsection.19.3.2}{Examples}{section.19.3}% 134
+\BOOKMARK [2][-]{subsection.19.3.3}{Constant Weighting}{section.19.3}% 135
+\BOOKMARK [2][-]{subsection.19.3.4}{Pyramidal Weighting}{section.19.3}% 136
+\BOOKMARK [2][-]{subsection.19.3.5}{Results Summary and Discussions}{section.19.3}% 137
+\BOOKMARK [0][-]{chapter.20}{Discussion and Conclusion}{part.4}% 138
+\BOOKMARK [1][-]{section.20.1}{Discussion}{chapter.20}% 139
+\BOOKMARK [2][-]{subsection.20.1.1}{Three Layers with U2 Thresholding}{section.20.1}% 140
+\BOOKMARK [2][-]{subsection.20.1.2}{Image Classification}{section.20.1}% 141
+\BOOKMARK [2][-]{subsection.20.1.3}{Speech Recognition : HMM}{section.20.1}% 142
+\BOOKMARK [1][-]{section.20.2}{Conclusion}{chapter.20}% 143
+\BOOKMARK [-1][-]{part.5}{V Appendix}{}% 144
+\BOOKMARK [0][-]{appendix.A}{Header Files Organization}{part.5}% 145
+\BOOKMARK [0][-]{appendix.B}{README}{part.5}% 146
+\BOOKMARK [1][-]{section.B.1}{Container and Utilities Examples}{appendix.B}% 147
+\BOOKMARK [-1][-]{part.6}{VI Application on Seizure Onset Zone prediction}{}% 148
+\BOOKMARK [0][-]{appendix.C}{Presentation}{part.6}% 149
+\BOOKMARK [0][-]{appendix.D}{Datasets}{part.6}% 150
+\BOOKMARK [0][-]{appendix.E}{Supervised Approaches}{part.6}% 151
+\BOOKMARK [1][-]{section.E.1}{Features}{appendix.E}% 152
+\BOOKMARK [2][-]{subsection.E.1.1}{Maximal Cross-Correlation}{section.E.1}% 153

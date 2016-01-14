@@ -1,0 +1,102 @@
+\begin{thebibliography}{10}
+
+\bibitem{learnfft}
+A {DFT} and {FFT} tutorial.
+\newblock
+  \url{http://www.alwayslearn.com/dft%20and%20fft%20tutorial/DFTandFFT_BasicIdea.html},
+  June 2014.
+
+\bibitem{m3}
+DI~ENS.
+\newblock Scatnet toolbox.
+\newblock http://www.di.ens.fr/data/software/scatnet/, 2011-2015.
+
+\bibitem{randall5}
+H~Goeau, H~Glotin, WP~Vellinga, and A~Rauber.
+\newblock Lifeclef bird identitfication task 2014.
+\newblock Clef working notes, 2014.
+
+\bibitem{m2}
+Anden J. and Mallat S.
+\newblock Deep scattering spectrum.
+\newblock Deep Scattering Spectrum,Submitted to IEEE Transactions on Signal
+  Processing, 2011.
+
+\bibitem{mallat1999}
+Alexis Joly, Herve Goeau, Herve Glotin, Concetto Spampinato, and Henning
+  Muller.
+\newblock {\em Lifeclef 2014: multimedia life species identification
+  challenges}.
+\newblock Information Access Evaluation. Multilinguality, Multimodality, and
+  Interaction, Springer International Publishing, 2014.
+
+\bibitem{mallat1999wavelet}
+St{\'e}phane Mallat.
+\newblock {\em A wavelet tour of signal processing}.
+\newblock Academic press, 1999.
+
+\bibitem{m1}
+Stephane MALLAT.
+\newblock Group invariant scattering.
+\newblock Communications in Pure and Applied Mathematics, vol. 65, no. 10, pp.
+  1331-1398, 2012.
+
+\bibitem{codeprojectfft}
+João Martins.
+\newblock How to implement the fft algorithm.
+\newblock
+  \url{http://www.codeproject.com/Articles/9388/How-to-implement-the-FFT-algorithm},
+  February 2005.
+
+\bibitem{dobbfft}
+Vlodymyr Myrny.
+\newblock A simple and efficient fft implementation in c++:part 1.
+\newblock
+  \url{http://www.drdobbs.com/cpp/a-simple-and-efficient-fft-implementatio/199500857},
+  May 2007.
+
+\bibitem{internL3}
+BALESTRIERO Randall and GLOTIN Herve.
+\newblock Bachelor's research internship report.
+\newblock \url{http://www.lsis.univ-tln.fr/~rbalestriero/intern_report_l3.pdf},
+  December 2013.
+
+\bibitem{CIGAL}
+BALESTRIERO Randall and GLOTIN Herve.
+\newblock Cigal : C++ signal scattering and wavelet fast representations.
+\newblock
+  \url{https://www.academia.edu/10202482/CIGAL_C_sIGnal_scAttering_and_waveLet_fast_representations},
+  December 2014.
+
+\bibitem{stanfordwav}
+Craig~Stuart Sapp.
+\newblock Wave pcm soundfile format.
+\newblock \url{https://ccrma.stanford.edu/courses/422/projects/WaveFormat/},
+  December 2011.
+
+\bibitem{Sifre_2013_CVPR}
+Laurent Sifre and Stephane Mallat.
+\newblock Rotation, scaling and deformation invariant scattering for texture
+  discrimination.
+\newblock In {\em The IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, June 2013.
+
+\bibitem{trone2015}
+Marie Trone, Herv{\'e} Glotin, Randall Balestriero, David~E Bonnett, and Jerry
+  Blakefield.
+\newblock Heterogeneity of amazon river dolphin high-frequency clicks: Current
+  odontoceti bioacoustic terminology in need of standardization.
+\newblock {\em Proceedings of Meetings on Acoustics}, 22(1):070003, 2015.
+
+\bibitem{wikifft}
+Wikipedia.
+\newblock Fast fourier transform.
+\newblock \url{http://en.wikipedia.org/wiki/Fast_Fourier_transform}, December
+  2014.
+
+\bibitem{wikiwav}
+Wikipedia.
+\newblock Wav.
+\newblock \url{http://en.wikipedia.org/wiki/WAV}, November 2014.
+
+\end{thebibliography}

@@ -1,0 +1,183 @@
+\select@language {english}
+\contentsline {part}{I\hspace {1em}Fast Linear Algebra Implementation}{3}{part.1}
+\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Presentation}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Utilities}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Operators Overload}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}De-vectorization}{5}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Motivation}{5}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Concept}{5}{subsection.1.4.2}
+\contentsline {chapter}{\numberline {2}Function parser}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Motivation}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Tree Generation}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Rules}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Structure}{8}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Tree Evaluation}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}Implemented functions}{8}{section.2.4}
+\contentsline {section}{\numberline {2.5}Example}{9}{section.2.5}
+\contentsline {chapter}{\numberline {3}Vector, Plain Matrix, Sparse Matrix }{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}Motivation}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}Vector Resizing}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Utilities}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Examples}{12}{section.3.4}
+\contentsline {section}{\numberline {3.5}Sparse Matrix}{13}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Product Matrix-Vector}{13}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Sparse Matrix : CSR}{14}{subsection.3.5.2}
+\contentsline {subsubsection}{Definition and Methods}{14}{section*.3}
+\contentsline {subsubsection}{Example}{15}{section*.4}
+\contentsline {subsubsection}{Product matrix-Vector}{15}{section*.5}
+\contentsline {subsubsection}{LU decomposition}{16}{section*.6}
+\contentsline {chapter}{\numberline {4}Solver}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Direct Method}{17}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}LU decomposition}{17}{subsection.4.1.1}
+\contentsline {paragraph}{Algorithms :}{18}{section*.7}
+\contentsline {subsection}{\numberline {4.1.2}Matrix Invert Computation}{19}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Computing the Matrix Determinant}{19}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Iterative Methods}{20}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Jacobi}{20}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Gauss-Seidel}{21}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Successive Over Relaxation}{24}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Gradient Based Methods}{24}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Gradient Descent}{25}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Conjugate Gradient Descent}{27}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Preconditioning}{28}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Example}{29}{subsection.4.3.4}
+\contentsline {chapter}{\numberline {5}Mesh}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}$2D$ Triangular Mesh}{31}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Storage}{31}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}IO}{32}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}$2D$ rectangular mesh}{32}{section.5.2}
+\contentsline {chapter}{\numberline {6}User Interface}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Motivation}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Menu}{33}{section.6.2}
+\contentsline {section}{\numberline {6.3}Plotting/Vizualisation}{34}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}$1D$}{34}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}$2D$}{36}{subsection.6.3.2}
+\contentsline {part}{II\hspace {1em}Fast Scattering}{39}{part.2}
+\contentsline {chapter}{\numberline {7}Scattering Network}{40}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{40}{section.7.1}
+\contentsline {section}{\numberline {7.2}Filter Bank}{41}{section.7.2}
+\contentsline {paragraph}{Filters}{42}{section*.9}
+\contentsline {paragraph}{Filter Periodization}{42}{section*.10}
+\contentsline {section}{\numberline {7.3}Scattering Layer}{43}{section.7.3}
+\contentsline {paragraph}{Decomposition Implementation}{43}{section*.11}
+\contentsline {chapter}{\numberline {8}Choice for Fast Audio File Manipulation}{44}{chapter.8}
+\contentsline {section}{\numberline {8.1}File Structure}{44}{section.8.1}
+\contentsline {section}{\numberline {8.2}Implementation}{46}{section.8.2}
+\contentsline {chapter}{\numberline {9}Fast Fourier Transform implementation}{47}{chapter.9}
+\contentsline {section}{\numberline {9.1}Definitions}{47}{section.9.1}
+\contentsline {paragraph}{Interpretation of the CFT}{47}{section*.15}
+\contentsline {section}{\numberline {9.2}Fast Fourier Transform}{48}{section.9.2}
+\contentsline {paragraph}{Danielson-Lanczos Lemma}{48}{section*.16}
+\contentsline {paragraph}{Twiddle Factor Properties}{50}{section*.17}
+\contentsline {paragraph}{Butterfly Scheme}{50}{section*.18}
+\contentsline {section}{\numberline {9.3}Inverse Fourier Transform}{50}{section.9.3}
+\contentsline {section}{\numberline {9.4}Algorithm}{50}{section.9.4}
+\contentsline {section}{\numberline {9.5}Graph}{53}{section.9.5}
+\contentsline {chapter}{\numberline {10}Spectrogram}{54}{chapter.10}
+\contentsline {section}{\numberline {10.1}Algorithm}{54}{section.10.1}
+\contentsline {section}{\numberline {10.2}Implementation}{55}{section.10.2}
+\contentsline {section}{\numberline {10.3}Graph}{55}{section.10.3}
+\contentsline {section}{\numberline {10.4}Examples}{56}{section.10.4}
+\contentsline {chapter}{\numberline {11}Scattering Network Fast Implementation}{59}{chapter.11}
+\contentsline {section}{\numberline {11.1}Meta-Parameters}{59}{section.11.1}
+\contentsline {section}{\numberline {11.2}Filter Bank}{59}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Implementation}{59}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Optimization and Computation Time}{61}{subsection.11.2.2}
+\contentsline {subsubsection}{Periodization \& algorithm }{63}{section*.20}
+\contentsline {paragraph}{Periodization}{63}{figure.11.4}
+\contentsline {paragraph}{Translation}{64}{section*.22}
+\contentsline {paragraph}{Only one computation (no B)}{66}{section*.23}
+\contentsline {subsubsection}{Filter Support and Sparse Vector}{66}{section*.24}
+\contentsline {paragraph}{Explicit Expression for the Support}{68}{section*.25}
+\contentsline {paragraph}{Filters IO}{68}{section*.26}
+\contentsline {subsubsection}{Results}{69}{section*.27}
+\contentsline {section}{\numberline {11.3}Layer Implementation}{69}{section.11.3}
+\contentsline {section}{\numberline {11.4}Scattering Network Implementation}{70}{section.11.4}
+\contentsline {section}{\numberline {11.5}Computation Time and Examples}{71}{section.11.5}
+\contentsline {subsection}{\numberline {11.5.1}Computation Time}{71}{subsection.11.5.1}
+\contentsline {subsection}{\numberline {11.5.2}Examples}{72}{subsection.11.5.2}
+\contentsline {part}{III\hspace {1em}Validation on a Finite Element Approximation}{73}{part.3}
+\contentsline {chapter}{\numberline {12}Initial Problem}{74}{chapter.12}
+\contentsline {chapter}{\numberline {13}Variational Problem}{76}{chapter.13}
+\contentsline {section}{\numberline {13.1}Weak Form Derivation}{76}{section.13.1}
+\contentsline {section}{\numberline {13.2}Problem Equivalence}{77}{section.13.2}
+\contentsline {section}{\numberline {13.3}Existence and Uniqueness of the Solution}{77}{section.13.3}
+\contentsline {chapter}{\numberline {14}Discretized Problem}{79}{chapter.14}
+\contentsline {section}{\numberline {14.1}Existence and Uniqueness of the Solution}{79}{section.14.1}
+\contentsline {section}{\numberline {14.2}Mesh Description}{79}{section.14.2}
+\contentsline {section}{\numberline {14.3}System $Au=L$}{81}{section.14.3}
+\contentsline {chapter}{\numberline {15}Discretized Problem Computation}{82}{chapter.15}
+\contentsline {section}{\numberline {15.1}Quadrature}{82}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}Triangle Area}{82}{subsection.15.1.1}
+\contentsline {subsection}{\numberline {15.1.2}Hat Functions}{82}{subsection.15.1.2}
+\contentsline {section}{\numberline {15.2}Bilinear Form Computation}{83}{section.15.2}
+\contentsline {section}{\numberline {15.3}Linear Form Computation}{84}{section.15.3}
+\contentsline {section}{\numberline {15.4}Implementation of Piecewise-Defined Functions}{85}{section.15.4}
+\contentsline {subsection}{\numberline {15.4.1}$\alpha $ function}{85}{subsection.15.4.1}
+\contentsline {subsection}{\numberline {15.4.2}$g$ function}{86}{subsection.15.4.2}
+\contentsline {section}{\numberline {15.5}Method to Fill the System $Au=L$}{86}{section.15.5}
+\contentsline {subsection}{\numberline {15.5.1}Optimized Approach}{86}{subsection.15.5.1}
+\contentsline {subsection}{\numberline {15.5.2}Computation time,Convergence, Optimization}{88}{subsection.15.5.2}
+\contentsline {chapter}{\numberline {16}Examples and GUI}{90}{chapter.16}
+\contentsline {section}{\numberline {16.1}GUI}{90}{section.16.1}
+\contentsline {section}{\numberline {16.2}Examples}{94}{section.16.2}
+\contentsline {subsection}{\numberline {16.2.1}Example 1}{94}{subsection.16.2.1}
+\contentsline {subsection}{\numberline {16.2.2}Example 2}{95}{subsection.16.2.2}
+\contentsline {chapter}{\numberline {17}Error Analysis}{96}{chapter.17}
+\contentsline {section}{\numberline {17.1}Considered Problem}{96}{section.17.1}
+\contentsline {section}{\numberline {17.2}Analysis}{97}{section.17.2}
+\contentsline {part}{IV\hspace {1em}Benchmark and Bioacoustic Classification}{101}{part.4}
+\contentsline {chapter}{\numberline {18}Challenge Presentation}{102}{chapter.18}
+\contentsline {section}{\numberline {18.1}Description}{102}{section.18.1}
+\contentsline {section}{\numberline {18.2}Problem Approach}{103}{section.18.2}
+\contentsline {paragraph}{Input}{103}{section*.28}
+\contentsline {paragraph}{Preprocessing}{104}{section*.29}
+\contentsline {paragraph}{Feature Selection}{104}{section*.30}
+\contentsline {paragraph}{Prediction}{104}{section*.31}
+\contentsline {paragraph}{Sub-training set}{104}{section*.32}
+\contentsline {paragraph}{Comments}{104}{section*.33}
+\contentsline {section}{\numberline {18.3}Informative Features Analysis}{104}{section.18.3}
+\contentsline {subsection}{\numberline {18.3.1}Row Conditioning}{105}{subsection.18.3.1}
+\contentsline {subsubsection}{Non biological sound suppression}{105}{section*.34}
+\contentsline {subsubsection}{Row weighting}{105}{section*.35}
+\contentsline {subsection}{\numberline {18.3.2}Word Extraction}{105}{subsection.18.3.2}
+\contentsline {subsection}{\numberline {18.3.3}Song Extraction}{106}{subsection.18.3.3}
+\contentsline {subsection}{\numberline {18.3.4}Examples}{106}{subsection.18.3.4}
+\contentsline {subsection}{\numberline {18.3.5}Conclusion}{107}{subsection.18.3.5}
+\contentsline {chapter}{\numberline {19}Classification Algorithms using the Scattering Network}{108}{chapter.19}
+\contentsline {section}{\numberline {19.1}One Scattering Layer}{108}{section.19.1}
+\contentsline {subsection}{\numberline {19.1.1}Architecture}{108}{subsection.19.1.1}
+\contentsline {subsection}{\numberline {19.1.2}Cross-validation : T}{109}{subsection.19.1.2}
+\contentsline {subsection}{\numberline {19.1.3}Cross-validation : Features}{110}{subsection.19.1.3}
+\contentsline {subsection}{\numberline {19.1.4}Cross-validation : Neurons}{113}{subsection.19.1.4}
+\contentsline {subsection}{\numberline {19.1.5}Results Summary and Discussions}{114}{subsection.19.1.5}
+\contentsline {section}{\numberline {19.2}Two Scattering Layers}{114}{section.19.2}
+\contentsline {subsection}{\numberline {19.2.1}Architecture}{114}{subsection.19.2.1}
+\contentsline {subsection}{\numberline {19.2.2}Cross-validation : $T_2$}{115}{subsection.19.2.2}
+\contentsline {subsection}{\numberline {19.2.3}Cross-validation : features}{116}{subsection.19.2.3}
+\contentsline {subsection}{\numberline {19.2.4}Cross-validation neurons}{117}{subsection.19.2.4}
+\contentsline {subsection}{\numberline {19.2.5}Results Summary and Discussions}{117}{subsection.19.2.5}
+\contentsline {section}{\numberline {19.3}Two Layers with $U_2$ Thresholding}{117}{section.19.3}
+\contentsline {subsection}{\numberline {19.3.1}Architecture}{117}{subsection.19.3.1}
+\contentsline {subsection}{\numberline {19.3.2}Examples}{118}{subsection.19.3.2}
+\contentsline {subsection}{\numberline {19.3.3}Constant Weighting}{124}{subsection.19.3.3}
+\contentsline {subsection}{\numberline {19.3.4}Pyramidal Weighting}{126}{subsection.19.3.4}
+\contentsline {subsection}{\numberline {19.3.5}Results Summary and Discussions}{128}{subsection.19.3.5}
+\contentsline {chapter}{\numberline {20}Discussion and Conclusion}{129}{chapter.20}
+\contentsline {section}{\numberline {20.1}Discussion}{129}{section.20.1}
+\contentsline {subsection}{\numberline {20.1.1}Three Layers with $U_2$ Thresholding}{129}{subsection.20.1.1}
+\contentsline {subsection}{\numberline {20.1.2}Image Classification}{129}{subsection.20.1.2}
+\contentsline {subsection}{\numberline {20.1.3}Speech Recognition : HMM}{129}{subsection.20.1.3}
+\contentsline {section}{\numberline {20.2}Conclusion}{129}{section.20.2}
+\contentsline {part}{V\hspace {1em}Appendix}{132}{part.5}
+\contentsline {chapter}{\numberline {A}Header Files Organization}{133}{appendix.A}
+\contentsline {chapter}{\numberline {B}README}{135}{appendix.B}
+\contentsline {section}{\numberline {B.1}Container and Utilities Examples}{135}{section.B.1}
+\contentsline {part}{VI\hspace {1em}Application on Seizure Onset Zone prediction}{137}{part.6}
+\contentsline {chapter}{\numberline {C}Presentation}{138}{appendix.C}
+\contentsline {chapter}{\numberline {D}Datasets}{139}{appendix.D}
+\contentsline {chapter}{\numberline {E}Supervised Approaches}{140}{appendix.E}
+\contentsline {section}{\numberline {E.1}Features}{140}{section.E.1}
+\contentsline {subsection}{\numberline {E.1.1}Maximal Cross-Correlation}{140}{subsection.E.1.1}
+\contentsline {subsubsection}{Nonlinear Interdependance}{140}{section*.37}

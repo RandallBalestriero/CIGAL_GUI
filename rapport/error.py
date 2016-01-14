@@ -1,0 +1,102 @@
+from pylab import *
+
+
+a=loadtxt('MESH_22500.txt')
+b=loadtxt("MESH_81.txt")
+c=loadtxt('MESH_144.txt')
+d=loadtxt('MESH_576.txt')
+e=loadtxt("MESH_1296.txt")
+
+d1=loadtxt("error1.txt")#Diff(a,b)
+
+d2=loadtxt("error2.txt")#Diff(a,c)
+d3=loadtxt("error3.txt")#Diff(a,d)
+d4=loadtxt("error4.txt")#Diff(a,e)
+
+subplot(2,2,1)
+imshow(flipud(d1),aspect='auto')
+title("Mesh 9x9")
+ax=gca()
+colorbar()
+ax.invert_yaxis()
+subplot(2,2,2)
+imshow(flipud(d2),aspect='auto')
+title("Mesh 12x12")
+ax=gca()
+colorbar()
+ax.invert_yaxis()
+subplot(2,2,3)
+imshow(flipud(d3),aspect='auto')
+title("Mesh 24x24")
+ax=gca()
+ax.invert_yaxis()
+colorbar()
+subplot(2,2,4)
+imshow(flipud(d4),aspect='auto')
+title("Mesh 36x36")
+ax=gca()
+ax.invert_yaxis()
+colorbar()
+figure()
+MIN=d4.min()
+MAX=d1.max()
+
+subplot(2,2,1)
+imshow(flipud(d1),aspect='auto',vmin=MIN,vmax=MAX)
+title("Mesh 9x9")
+ax=gca()
+colorbar()
+ax.invert_yaxis()
+subplot(2,2,2)
+imshow(flipud(d2),aspect='auto',vmin=MIN,vmax=MAX)
+title("Mesh 12x12")
+ax=gca()
+colorbar()
+ax.invert_yaxis()
+subplot(2,2,3)
+imshow(flipud(d3),aspect='auto',vmin=MIN,vmax=MAX)
+title("Mesh 24x24")
+ax=gca()
+ax.invert_yaxis()
+colorbar()
+subplot(2,2,4)
+imshow(flipud(d4),aspect='auto',vmin=MIN,vmax=MAX)
+title("Mesh 36x36")
+ax=gca()
+ax.invert_yaxis()
+colorbar()
+
+figure()
+
+
+
+g1=gradient(d1)
+g2=gradient(d2)
+g3=gradient(d3)
+g4=gradient(d4)
+
+
+norm1=sqrt((d1**2).sum()+((g1[0]+g1[1])**2).sum())
+norm2=sqrt((d2**2).sum()+((g2[0]+g2[1])**2).sum())
+norm3=sqrt((d3**2).sum()+((g3[0]+g3[1])**2).sum())
+norm4=sqrt((d4**2).sum()+((g4[0]+g4[1])**2).sum())
+X=array([81,12*12,24*24,36*36])
+subplot(121)
+plot(X,[norm1,norm2,norm3,norm4])
+title(r"$||u_{ref}-u_i||_{H^1}$ vs $N^2$",fontsize=22)
+xlabel(r"$N^2$",fontsize=22)
+ylabel(r"$||u_{ref}-u_i||_{H^1}$",fontsize=22)
+grid('on')
+subplot(122)
+plot(1.0/sqrt(X),[norm1,norm2,norm3,norm4])
+title(r"$||u_{ref}-u_i||_{H^1}$ vs $1/N$",fontsize=22)
+xlabel(r"$1/N$",fontsize=22)
+ylabel(r"$||u_{ref}-u_i||_{H^1}$",fontsize=22)
+grid('on')
+show()
+
+
+
+
+
+		

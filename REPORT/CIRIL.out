@@ -1,0 +1,83 @@
+\BOOKMARK [1][-]{section.0.1}{Introduction}{}% 1
+\BOOKMARK [-1][-]{part.1}{I Fast Scattering}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Scattering Network}{part.1}% 3
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Filter Bank}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Scattering Layer}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Choice for Fast Audio File Manipulation}{part.1}% 7
+\BOOKMARK [1][-]{section.2.1}{File Structure}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Implementation}{chapter.2}% 9
+\BOOKMARK [0][-]{chapter.3}{Fast Fourier Transform implementation}{part.1}% 10
+\BOOKMARK [1][-]{section.3.1}{Definitions}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.2}{Fast Fourier Transform}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.3}{Inverse Fourier Transform}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.4}{Algorithm}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.5}{Graph}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Spectrogram}{part.1}% 16
+\BOOKMARK [1][-]{section.4.1}{Algorithm}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.2}{Implementation}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.3}{Graph}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.4}{Examples}{chapter.4}% 20
+\BOOKMARK [0][-]{chapter.5}{Scattering Network Fast Implementation}{part.1}% 21
+\BOOKMARK [1][-]{section.5.1}{Meta-Parameters}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.2}{Filter Bank Creation}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.3}{Layer Implementation}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.4}{Scattering Network Implementation}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.5}{Optimizations and Computation Time}{chapter.5}% 26
+\BOOKMARK [2][-]{subsection.5.5.1}{Filter Bank Optimizations}{section.5.5}% 27
+\BOOKMARK [2][-]{subsection.5.5.2}{Computation Time}{section.5.5}% 28
+\BOOKMARK [1][-]{section.5.6}{Examples}{chapter.5}% 29
+\BOOKMARK [-1][-]{part.2}{II Benchmark and Bioacoustic Classification}{}% 30
+\BOOKMARK [-1][-]{part.3}{III Function parser}{}% 31
+\BOOKMARK [0][-]{section.5.7}{Motivation}{part.3}% 32
+\BOOKMARK [1][-]{section.5.8}{Tree Generation}{section.5.7}% 33
+\BOOKMARK [2][-]{subsection.5.8.1}{Rules}{section.5.8}% 34
+\BOOKMARK [2][-]{subsection.5.8.2}{Structure}{section.5.8}% 35
+\BOOKMARK [1][-]{section.5.9}{Tree Evaluation}{section.5.7}% 36
+\BOOKMARK [1][-]{section.5.10}{Implemented functions}{section.5.7}% 37
+\BOOKMARK [1][-]{section.5.11}{Example}{section.5.7}% 38
+\BOOKMARK [-1][-]{part.4}{IV Solver}{}% 39
+\BOOKMARK [0][-]{section.5.12}{Direct Method}{part.4}% 40
+\BOOKMARK [1][-]{subsection.5.12.1}{LU decomposition}{section.5.12}% 41
+\BOOKMARK [2][-]{subsection.5.12.2}{Matrix Invert Computation}{subsection.5.12.1}% 42
+\BOOKMARK [2][-]{subsection.5.12.3}{Computing the Matrix Determinant}{subsection.5.12.1}% 43
+\BOOKMARK [1][-]{section.5.13}{Iterative Methods}{section.5.12}% 44
+\BOOKMARK [2][-]{subsection.5.13.1}{Jacobi}{section.5.13}% 45
+\BOOKMARK [2][-]{subsection.5.13.2}{Gauss-Seidel}{section.5.13}% 46
+\BOOKMARK [2][-]{subsection.5.13.3}{Successive Over Relaxation}{section.5.13}% 47
+\BOOKMARK [1][-]{section.5.14}{Gradient Based Methods}{section.5.12}% 48
+\BOOKMARK [2][-]{subsection.5.14.1}{Gradient Descent}{section.5.14}% 49
+\BOOKMARK [2][-]{subsection.5.14.2}{Conjugate Gradient Descent}{section.5.14}% 50
+\BOOKMARK [2][-]{subsection.5.14.3}{Preconditioning}{section.5.14}% 51
+\BOOKMARK [2][-]{subsection.5.14.4}{Example}{section.5.14}% 52
+\BOOKMARK [-1][-]{part.5}{V Validation on a Finite Element Approximation}{}% 53
+\BOOKMARK [0][-]{chapter.6}{Initial Problem}{part.5}% 54
+\BOOKMARK [0][-]{chapter.7}{Variational Problem}{part.5}% 55
+\BOOKMARK [1][-]{section.7.1}{Weak Form Derivation}{chapter.7}% 56
+\BOOKMARK [1][-]{section.7.2}{Problem Equivalence}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.3}{Existence and Uniqueness of the Solution}{chapter.7}% 58
+\BOOKMARK [0][-]{chapter.8}{Discretized Problem}{part.5}% 59
+\BOOKMARK [1][-]{section.8.1}{Existence and Uniqueness of the Solution}{chapter.8}% 60
+\BOOKMARK [1][-]{section.8.2}{Mesh Description}{chapter.8}% 61
+\BOOKMARK [1][-]{section.8.3}{System Au=L}{chapter.8}% 62
+\BOOKMARK [0][-]{chapter.9}{Discretized Problem Computation}{part.5}% 63
+\BOOKMARK [1][-]{section.9.1}{Quadrature}{chapter.9}% 64
+\BOOKMARK [2][-]{subsection.9.1.1}{Triangle Area}{section.9.1}% 65
+\BOOKMARK [2][-]{subsection.9.1.2}{Hat Functions}{section.9.1}% 66
+\BOOKMARK [1][-]{section.9.2}{Bilinear Form Computation}{chapter.9}% 67
+\BOOKMARK [1][-]{section.9.3}{Linear Form Computation}{chapter.9}% 68
+\BOOKMARK [1][-]{section.9.4}{Implementation of Piecewise-Defined Functions}{chapter.9}% 69
+\BOOKMARK [2][-]{subsection.9.4.1}{ function}{section.9.4}% 70
+\BOOKMARK [2][-]{subsection.9.4.2}{g function}{section.9.4}% 71
+\BOOKMARK [1][-]{section.9.5}{Method to Fill the System Au=L}{chapter.9}% 72
+\BOOKMARK [2][-]{subsection.9.5.1}{Optimized Approach}{section.9.5}% 73
+\BOOKMARK [2][-]{subsection.9.5.2}{Computation time,Convergence, Optimization}{section.9.5}% 74
+\BOOKMARK [0][-]{chapter.10}{Examples and GUI}{part.5}% 75
+\BOOKMARK [1][-]{section.10.1}{GUI}{chapter.10}% 76
+\BOOKMARK [1][-]{section.10.2}{Examples}{chapter.10}% 77
+\BOOKMARK [2][-]{subsection.10.2.1}{Example 1}{section.10.2}% 78
+\BOOKMARK [2][-]{subsection.10.2.2}{Example 2}{section.10.2}% 79
+\BOOKMARK [0][-]{chapter.11}{Error Analysis}{part.5}% 80
+\BOOKMARK [1][-]{section.11.1}{Considered Problem}{chapter.11}% 81
+\BOOKMARK [1][-]{section.11.2}{Analysis}{chapter.11}% 82
+\BOOKMARK [1][-]{section.11.3}{Conclusion}{chapter.11}% 83
